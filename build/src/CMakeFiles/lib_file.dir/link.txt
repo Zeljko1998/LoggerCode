@@ -1,0 +1,2 @@
+/usr/bin/ar qc liblib_file.a CMakeFiles/lib_file.dir/FileLogger.cpp.o
+/usr/bin/ranlib liblib_file.a

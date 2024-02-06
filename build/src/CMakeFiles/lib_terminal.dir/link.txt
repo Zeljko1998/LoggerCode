@@ -1,0 +1,2 @@
+/usr/bin/ar qc liblib_terminal.a CMakeFiles/lib_terminal.dir/TerminalLogger.cpp.o
+/usr/bin/ranlib liblib_terminal.a
