@@ -238,6 +238,9 @@ LIBRARY_OUTPUT_PATH:PATH=
 lib_file_LIB_DEPENDS:STATIC=general;lib_base;
 
 //Dependencies for the target
+lib_log_LIB_DEPENDS:STATIC=general;lib_base;general;lib_terminal;general;lib_file;
+
+//Dependencies for the target
 lib_terminal_LIB_DEPENDS:STATIC=general;lib_base;
 
 

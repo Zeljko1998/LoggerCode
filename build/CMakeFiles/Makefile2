@@ -82,6 +82,7 @@ src/all: src/CMakeFiles/bin_main.dir/all
 src/all: src/CMakeFiles/lib_base.dir/all
 src/all: src/CMakeFiles/lib_terminal.dir/all
 src/all: src/CMakeFiles/lib_file.dir/all
+src/all: src/CMakeFiles/lib_log.dir/all
 .PHONY : src/all
 
 # Recursive "preinstall" directory target.
@@ -93,6 +94,7 @@ src/clean: src/CMakeFiles/bin_main.dir/clean
 src/clean: src/CMakeFiles/lib_base.dir/clean
 src/clean: src/CMakeFiles/lib_terminal.dir/clean
 src/clean: src/CMakeFiles/lib_file.dir/clean
+src/clean: src/CMakeFiles/lib_log.dir/clean
 .PHONY : src/clean
 
 #=============================================================================
@@ -102,6 +104,7 @@ src/clean: src/CMakeFiles/lib_file.dir/clean
 src/CMakeFiles/bin_main.dir/all: src/CMakeFiles/lib_base.dir/all
 src/CMakeFiles/bin_main.dir/all: src/CMakeFiles/lib_terminal.dir/all
 src/CMakeFiles/bin_main.dir/all: src/CMakeFiles/lib_file.dir/all
+src/CMakeFiles/bin_main.dir/all: src/CMakeFiles/lib_log.dir/all
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/bin_main.dir/build.make src/CMakeFiles/bin_main.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/bin_main.dir/build.make src/CMakeFiles/bin_main.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/ubuntu/Documents/Logger/LoggerCode/build/CMakeFiles --progress-num=1,2 "Built target bin_main"
@@ -109,7 +112,7 @@ src/CMakeFiles/bin_main.dir/all: src/CMakeFiles/lib_file.dir/all
 
 # Build rule for subdir invocation for target.
 src/CMakeFiles/bin_main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/Documents/Logger/LoggerCode/build/CMakeFiles 8
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/Documents/Logger/LoggerCode/build/CMakeFiles 10
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/bin_main.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/Documents/Logger/LoggerCode/build/CMakeFiles 0
 .PHONY : src/CMakeFiles/bin_main.dir/rule
@@ -156,7 +159,7 @@ src/CMakeFiles/lib_base.dir/clean:
 src/CMakeFiles/lib_terminal.dir/all: src/CMakeFiles/lib_base.dir/all
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/lib_terminal.dir/build.make src/CMakeFiles/lib_terminal.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/lib_terminal.dir/build.make src/CMakeFiles/lib_terminal.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/ubuntu/Documents/Logger/LoggerCode/build/CMakeFiles --progress-num=7,8 "Built target lib_terminal"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/ubuntu/Documents/Logger/LoggerCode/build/CMakeFiles --progress-num=9,10 "Built target lib_terminal"
 .PHONY : src/CMakeFiles/lib_terminal.dir/all
 
 # Build rule for subdir invocation for target.
@@ -200,6 +203,34 @@ lib_file: src/CMakeFiles/lib_file.dir/rule
 src/CMakeFiles/lib_file.dir/clean:
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/lib_file.dir/build.make src/CMakeFiles/lib_file.dir/clean
 .PHONY : src/CMakeFiles/lib_file.dir/clean
+
+#=============================================================================
+# Target rules for target src/CMakeFiles/lib_log.dir
+
+# All Build rule for target.
+src/CMakeFiles/lib_log.dir/all: src/CMakeFiles/lib_base.dir/all
+src/CMakeFiles/lib_log.dir/all: src/CMakeFiles/lib_terminal.dir/all
+src/CMakeFiles/lib_log.dir/all: src/CMakeFiles/lib_file.dir/all
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/lib_log.dir/build.make src/CMakeFiles/lib_log.dir/depend
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/lib_log.dir/build.make src/CMakeFiles/lib_log.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/ubuntu/Documents/Logger/LoggerCode/build/CMakeFiles --progress-num=7,8 "Built target lib_log"
+.PHONY : src/CMakeFiles/lib_log.dir/all
+
+# Build rule for subdir invocation for target.
+src/CMakeFiles/lib_log.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/Documents/Logger/LoggerCode/build/CMakeFiles 8
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/lib_log.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/Documents/Logger/LoggerCode/build/CMakeFiles 0
+.PHONY : src/CMakeFiles/lib_log.dir/rule
+
+# Convenience name for target.
+lib_log: src/CMakeFiles/lib_log.dir/rule
+.PHONY : lib_log
+
+# clean rule for target.
+src/CMakeFiles/lib_log.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/lib_log.dir/build.make src/CMakeFiles/lib_log.dir/clean
+.PHONY : src/CMakeFiles/lib_log.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

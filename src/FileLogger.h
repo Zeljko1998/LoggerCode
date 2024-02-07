@@ -1,12 +1,12 @@
 #pragma once
-#include "LoggerBaseClass.h"
+#include "SyncClass.h"
 #include <fstream>
 
 
-class FileLogger : public LoggerBaseClass {
+class FileLogger : public SyncClass {
 	std::fstream file;
 public:
-	void printMsg(Level logLevel, std::string msg);
-	FileLogger(std::string fileName);
+	void printMsg(Level logLevel, const std::string& msg) override;
+	FileLogger(const std::string& fileName);
 	~FileLogger();
 };

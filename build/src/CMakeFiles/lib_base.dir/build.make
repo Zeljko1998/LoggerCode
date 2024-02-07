@@ -69,28 +69,28 @@ include src/CMakeFiles/lib_base.dir/progress.make
 # Include the compile flags for this target's objects.
 include src/CMakeFiles/lib_base.dir/flags.make
 
-src/CMakeFiles/lib_base.dir/LoggerBaseClass.cpp.o: src/CMakeFiles/lib_base.dir/flags.make
-src/CMakeFiles/lib_base.dir/LoggerBaseClass.cpp.o: /home/ubuntu/Documents/Logger/LoggerCode/src/LoggerBaseClass.cpp
-src/CMakeFiles/lib_base.dir/LoggerBaseClass.cpp.o: src/CMakeFiles/lib_base.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ubuntu/Documents/Logger/LoggerCode/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/lib_base.dir/LoggerBaseClass.cpp.o"
-	cd /home/ubuntu/Documents/Logger/LoggerCode/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/lib_base.dir/LoggerBaseClass.cpp.o -MF CMakeFiles/lib_base.dir/LoggerBaseClass.cpp.o.d -o CMakeFiles/lib_base.dir/LoggerBaseClass.cpp.o -c /home/ubuntu/Documents/Logger/LoggerCode/src/LoggerBaseClass.cpp
+src/CMakeFiles/lib_base.dir/SyncClass.cpp.o: src/CMakeFiles/lib_base.dir/flags.make
+src/CMakeFiles/lib_base.dir/SyncClass.cpp.o: /home/ubuntu/Documents/Logger/LoggerCode/src/SyncClass.cpp
+src/CMakeFiles/lib_base.dir/SyncClass.cpp.o: src/CMakeFiles/lib_base.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ubuntu/Documents/Logger/LoggerCode/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/lib_base.dir/SyncClass.cpp.o"
+	cd /home/ubuntu/Documents/Logger/LoggerCode/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/lib_base.dir/SyncClass.cpp.o -MF CMakeFiles/lib_base.dir/SyncClass.cpp.o.d -o CMakeFiles/lib_base.dir/SyncClass.cpp.o -c /home/ubuntu/Documents/Logger/LoggerCode/src/SyncClass.cpp
 
-src/CMakeFiles/lib_base.dir/LoggerBaseClass.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/lib_base.dir/LoggerBaseClass.cpp.i"
-	cd /home/ubuntu/Documents/Logger/LoggerCode/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Documents/Logger/LoggerCode/src/LoggerBaseClass.cpp > CMakeFiles/lib_base.dir/LoggerBaseClass.cpp.i
+src/CMakeFiles/lib_base.dir/SyncClass.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/lib_base.dir/SyncClass.cpp.i"
+	cd /home/ubuntu/Documents/Logger/LoggerCode/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Documents/Logger/LoggerCode/src/SyncClass.cpp > CMakeFiles/lib_base.dir/SyncClass.cpp.i
 
-src/CMakeFiles/lib_base.dir/LoggerBaseClass.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/lib_base.dir/LoggerBaseClass.cpp.s"
-	cd /home/ubuntu/Documents/Logger/LoggerCode/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Documents/Logger/LoggerCode/src/LoggerBaseClass.cpp -o CMakeFiles/lib_base.dir/LoggerBaseClass.cpp.s
+src/CMakeFiles/lib_base.dir/SyncClass.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/lib_base.dir/SyncClass.cpp.s"
+	cd /home/ubuntu/Documents/Logger/LoggerCode/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Documents/Logger/LoggerCode/src/SyncClass.cpp -o CMakeFiles/lib_base.dir/SyncClass.cpp.s
 
 # Object files for target lib_base
 lib_base_OBJECTS = \
-"CMakeFiles/lib_base.dir/LoggerBaseClass.cpp.o"
+"CMakeFiles/lib_base.dir/SyncClass.cpp.o"
 
 # External object files for target lib_base
 lib_base_EXTERNAL_OBJECTS =
 
-src/liblib_base.a: src/CMakeFiles/lib_base.dir/LoggerBaseClass.cpp.o
+src/liblib_base.a: src/CMakeFiles/lib_base.dir/SyncClass.cpp.o
 src/liblib_base.a: src/CMakeFiles/lib_base.dir/build.make
 src/liblib_base.a: src/CMakeFiles/lib_base.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/ubuntu/Documents/Logger/LoggerCode/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library liblib_base.a"

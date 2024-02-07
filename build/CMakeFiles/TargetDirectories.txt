@@ -4,5 +4,6 @@
 /home/ubuntu/Documents/Logger/LoggerCode/build/src/CMakeFiles/lib_base.dir
 /home/ubuntu/Documents/Logger/LoggerCode/build/src/CMakeFiles/lib_terminal.dir
 /home/ubuntu/Documents/Logger/LoggerCode/build/src/CMakeFiles/lib_file.dir
+/home/ubuntu/Documents/Logger/LoggerCode/build/src/CMakeFiles/lib_log.dir
 /home/ubuntu/Documents/Logger/LoggerCode/build/src/CMakeFiles/edit_cache.dir
 /home/ubuntu/Documents/Logger/LoggerCode/build/src/CMakeFiles/rebuild_cache.dir

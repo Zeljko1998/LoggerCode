@@ -1,6 +1,6 @@
 #include "TerminalLogger.h"
 
-void TerminalLogger::printMsg(Level logLevel, std::string msg) {
+void TerminalLogger::printMsg(SyncClass::Level logLevel,const std::string& msg) {
 	switch (logLevel) {
 	case L_TRACE:
 		std::cout << consoleTextColllor["green"] << printTimeAndDate() << " <TRACE> " << msg << consoleTextColllor["default"] << std::endl << std::endl;

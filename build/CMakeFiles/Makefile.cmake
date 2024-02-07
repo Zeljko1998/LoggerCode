@@ -50,4 +50,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "src/CMakeFiles/lib_base.dir/DependInfo.cmake"
   "src/CMakeFiles/lib_terminal.dir/DependInfo.cmake"
   "src/CMakeFiles/lib_file.dir/DependInfo.cmake"
+  "src/CMakeFiles/lib_log.dir/DependInfo.cmake"
   )

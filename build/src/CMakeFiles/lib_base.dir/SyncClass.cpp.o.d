@@ -1,7 +1,6 @@
-src/CMakeFiles/lib_file.dir/FileLogger.cpp.o: \
- /home/ubuntu/Documents/Logger/LoggerCode/src/FileLogger.cpp \
+src/CMakeFiles/lib_base.dir/SyncClass.cpp.o: \
+ /home/ubuntu/Documents/Logger/LoggerCode/src/SyncClass.cpp \
  /usr/include/stdc-predef.h \
- /home/ubuntu/Documents/Logger/LoggerCode/src/FileLogger.h \
  /home/ubuntu/Documents/Logger/LoggerCode/src/SyncClass.h \
  /usr/include/c++/13/iostream /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
@@ -160,8 +159,4 @@ src/CMakeFiles/lib_file.dir/FileLogger.cpp.o: \
  /usr/include/c++/13/bits/node_handle.h \
  /usr/include/c++/13/bits/stl_map.h \
  /usr/include/c++/13/bits/stl_multimap.h \
- /usr/include/c++/13/bits/erase_if.h /usr/include/c++/13/fstream \
- /usr/include/c++/13/bits/codecvt.h \
- /usr/include/x86_64-linux-gnu/c++/13/bits/basic_file.h \
- /usr/include/x86_64-linux-gnu/c++/13/bits/c++io.h \
- /usr/include/c++/13/bits/fstream.tcc
+ /usr/include/c++/13/bits/erase_if.h

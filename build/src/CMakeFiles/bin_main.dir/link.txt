@@ -1,1 +1,1 @@
-/usr/bin/c++ CMakeFiles/bin_main.dir/main.cpp.o -o bin_main  liblib_base.a liblib_terminal.a liblib_file.a liblib_base.a 
+/usr/bin/c++ CMakeFiles/bin_main.dir/main.cpp.o -o bin_main  liblib_base.a liblib_terminal.a liblib_file.a liblib_log.a liblib_terminal.a liblib_file.a liblib_base.a 

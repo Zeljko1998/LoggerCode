@@ -1,22 +1,18 @@
 #include <iostream>
-#include "LoggerBaseClass.h"
+#include <vector>
+#include <string>
+#include <memory>
+
 #include "TerminalLogger.h"
 #include "FileLogger.h"
+#include "LoggerClass.h"
+#include "SyncClass.h"
 
-int main()
-{
-    TerminalLogger tLog;
-    FileLogger fLog("LogFile.txt");
+int main()  
+{   
+    std::vector<SyncClass*> sinks;
+    Logger logger(sinks, "NewLogFile.txt");
 
-    tLog.printMsg((LoggerBaseClass::L_TRACE), "Neko pracenje!");
-    fLog.printMsg(FileLogger::L_ERROR, "Neko upozorenje!");
-
-    tLog.printMsg((LoggerBaseClass::L_ERROR), "Neka grska!");
-    fLog.printMsg(FileLogger::L_ERROR, "Neka greska!");
-
-    tLog.printMsg((LoggerBaseClass::L_WARNING), "Neko upozorenje!");
-    fLog.printMsg(FileLogger::L_WARNING, "Neko upozorenje!");
-
-    tLog.printMsg((LoggerBaseClass::L_FATAL), "Neki fatal!");
-    fLog.printMsg(FileLogger::L_ERROR, "Neki fatal!");
+    logger.log (sinks,SyncClass::L_ERROR, "Error 1_0_0_0_0_0_0_0");
+    logger.log (sinks,SyncClass::L_WARNING, "Warning 1_0_0_0_0_0_0_0");
 }

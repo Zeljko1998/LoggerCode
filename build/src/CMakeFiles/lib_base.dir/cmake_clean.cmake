@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/lib_base.dir/LoggerBaseClass.cpp.o"
-  "CMakeFiles/lib_base.dir/LoggerBaseClass.cpp.o.d"
+  "CMakeFiles/lib_base.dir/SyncClass.cpp.o"
+  "CMakeFiles/lib_base.dir/SyncClass.cpp.o.d"
   "liblib_base.a"
   "liblib_base.pdb"
 )

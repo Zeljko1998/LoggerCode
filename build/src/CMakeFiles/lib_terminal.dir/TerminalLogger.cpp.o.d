@@ -2,7 +2,7 @@ src/CMakeFiles/lib_terminal.dir/TerminalLogger.cpp.o: \
  /home/ubuntu/Documents/Logger/LoggerCode/src/TerminalLogger.cpp \
  /usr/include/stdc-predef.h \
  /home/ubuntu/Documents/Logger/LoggerCode/src/TerminalLogger.h \
- /home/ubuntu/Documents/Logger/LoggerCode/src/LoggerBaseClass.h \
+ /home/ubuntu/Documents/Logger/LoggerCode/src/SyncClass.h \
  /usr/include/c++/13/iostream /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \

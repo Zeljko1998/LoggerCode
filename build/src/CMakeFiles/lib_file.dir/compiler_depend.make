@@ -3,7 +3,7 @@
 
 src/CMakeFiles/lib_file.dir/FileLogger.cpp.o: /home/ubuntu/Documents/Logger/LoggerCode/src/FileLogger.cpp \
   /home/ubuntu/Documents/Logger/LoggerCode/src/FileLogger.h \
-  /home/ubuntu/Documents/Logger/LoggerCode/src/LoggerBaseClass.h \
+  /home/ubuntu/Documents/Logger/LoggerCode/src/SyncClass.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/errno-base.h \
   /usr/include/asm-generic/errno.h \
@@ -326,6 +326,8 @@ src/CMakeFiles/lib_file.dir/FileLogger.cpp.o: /home/ubuntu/Documents/Logger/Logg
 
 /usr/include/c++/13/ios:
 
+/usr/include/x86_64-linux-gnu/bits/cpu-set.h:
+
 /usr/include/c++/13/bits/invoke.h:
 
 /usr/include/c++/13/bits/locale_classes.tcc:
@@ -342,6 +344,8 @@ src/CMakeFiles/lib_file.dir/FileLogger.cpp.o: /home/ubuntu/Documents/Logger/Logg
 
 /usr/include/c++/13/bits/ostream.tcc:
 
+/home/ubuntu/Documents/Logger/LoggerCode/src/SyncClass.h:
+
 /usr/include/c++/13/bits/codecvt.h:
 
 /usr/include/c++/13/bits/move.h:
@@ -349,6 +353,18 @@ src/CMakeFiles/lib_file.dir/FileLogger.cpp.o: /home/ubuntu/Documents/Logger/Logg
 /usr/include/x86_64-linux-gnu/sys/single_threaded.h:
 
 /usr/include/c++/13/type_traits:
+
+/usr/include/c++/13/bits/locale_facets.tcc:
+
+/usr/include/c++/13/bits/requires_hosted.h:
+
+/usr/include/c++/13/bits/string_view.tcc:
+
+/usr/include/features.h:
+
+/usr/include/c++/13/backward/binders.h:
+
+/usr/include/c++/13/bits/stringfwd.h:
 
 /usr/include/c++/13/cwctype:
 
@@ -385,30 +401,6 @@ src/CMakeFiles/lib_file.dir/FileLogger.cpp.o: /home/ubuntu/Documents/Logger/Logg
 /usr/include/c++/13/bit:
 
 /usr/include/c++/13/bits/basic_string.tcc:
-
-/usr/include/c++/13/bits/locale_facets.tcc:
-
-/usr/include/c++/13/bits/requires_hosted.h:
-
-/usr/include/c++/13/bits/string_view.tcc:
-
-/usr/include/features.h:
-
-/usr/include/c++/13/backward/binders.h:
-
-/usr/include/c++/13/bits/stringfwd.h:
-
-/usr/include/x86_64-linux-gnu/bits/cpu-set.h:
-
-/home/ubuntu/Documents/Logger/LoggerCode/src/LoggerBaseClass.h:
-
-/usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
-
-/usr/include/c++/13/bits/functexcept.h:
-
-/usr/include/c++/13/bits/stl_iterator.h:
-
-/usr/include/c++/13/string:
 
 /usr/include/c++/13/bits/stl_map.h:
 
@@ -457,6 +449,14 @@ src/CMakeFiles/lib_file.dir/FileLogger.cpp.o: /home/ubuntu/Documents/Logger/Logg
 /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
 
 /usr/include/c++/13/cstddef:
+
+/usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
+
+/usr/include/c++/13/bits/functexcept.h:
+
+/usr/include/c++/13/bits/stl_iterator.h:
+
+/usr/include/c++/13/string:
 
 /usr/include/x86_64-linux-gnu/bits/uintn-identity.h:
 

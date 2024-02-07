@@ -1,10 +1,12 @@
 #pragma once
-#include "LoggerBaseClass.h"
+#include "SyncClass.h"
 #include <string>
 #include <iostream>
 
 
-class TerminalLogger : public LoggerBaseClass {
+class TerminalLogger : public SyncClass {
 	public: 
-		void printMsg(Level logLevel, std::string msg);
+		void printMsg(SyncClass::Level logLevel, const std::string& msg) override;
+
+		~TerminalLogger() {}
 };

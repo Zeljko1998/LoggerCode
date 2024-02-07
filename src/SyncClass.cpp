@@ -1,7 +1,7 @@
-#include "LoggerBaseClass.h"
+#include "SyncClass.h"
 
 
-char* LoggerBaseClass:: printTimeAndDate() {
+char* SyncClass:: printTimeAndDate() {
 	timeAndDate = time(&timeAndDate);
 	return asctime(localtime(&timeAndDate));
 }

@@ -168,6 +168,19 @@ lib_file/fast:
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/lib_file.dir/build.make src/CMakeFiles/lib_file.dir/build
 .PHONY : lib_file/fast
 
+#=============================================================================
+# Target rules for targets named lib_log
+
+# Build rule for target.
+lib_log: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib_log
+.PHONY : lib_log
+
+# fast build rule for target.
+lib_log/fast:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/lib_log.dir/build.make src/CMakeFiles/lib_log.dir/build
+.PHONY : lib_log/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -179,6 +192,7 @@ help:
 	@echo "... bin_main"
 	@echo "... lib_base"
 	@echo "... lib_file"
+	@echo "... lib_log"
 	@echo "... lib_terminal"
 .PHONY : help
 

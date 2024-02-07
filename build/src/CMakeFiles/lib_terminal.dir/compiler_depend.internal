@@ -3,7 +3,7 @@
 
 src/CMakeFiles/lib_terminal.dir/TerminalLogger.cpp.o
  /home/ubuntu/Documents/Logger/LoggerCode/src/TerminalLogger.cpp
- /home/ubuntu/Documents/Logger/LoggerCode/src/LoggerBaseClass.h
+ /home/ubuntu/Documents/Logger/LoggerCode/src/SyncClass.h
  /home/ubuntu/Documents/Logger/LoggerCode/src/TerminalLogger.h
  /usr/include/alloca.h
  /usr/include/asm-generic/errno-base.h

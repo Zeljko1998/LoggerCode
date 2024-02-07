@@ -172,6 +172,20 @@ lib_file/fast:
 	cd /home/ubuntu/Documents/Logger/LoggerCode/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/lib_file.dir/build.make src/CMakeFiles/lib_file.dir/build
 .PHONY : lib_file/fast
 
+# Convenience name for target.
+src/CMakeFiles/lib_log.dir/rule:
+	cd /home/ubuntu/Documents/Logger/LoggerCode/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/lib_log.dir/rule
+.PHONY : src/CMakeFiles/lib_log.dir/rule
+
+# Convenience name for target.
+lib_log: src/CMakeFiles/lib_log.dir/rule
+.PHONY : lib_log
+
+# fast build rule for target.
+lib_log/fast:
+	cd /home/ubuntu/Documents/Logger/LoggerCode/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/lib_log.dir/build.make src/CMakeFiles/lib_log.dir/build
+.PHONY : lib_log/fast
+
 FileLogger.o: FileLogger.cpp.o
 .PHONY : FileLogger.o
 
@@ -196,29 +210,53 @@ FileLogger.cpp.s:
 	cd /home/ubuntu/Documents/Logger/LoggerCode/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/lib_file.dir/build.make src/CMakeFiles/lib_file.dir/FileLogger.cpp.s
 .PHONY : FileLogger.cpp.s
 
-LoggerBaseClass.o: LoggerBaseClass.cpp.o
-.PHONY : LoggerBaseClass.o
+LoggerClass.o: LoggerClass.cpp.o
+.PHONY : LoggerClass.o
 
 # target to build an object file
-LoggerBaseClass.cpp.o:
-	cd /home/ubuntu/Documents/Logger/LoggerCode/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/lib_base.dir/build.make src/CMakeFiles/lib_base.dir/LoggerBaseClass.cpp.o
-.PHONY : LoggerBaseClass.cpp.o
+LoggerClass.cpp.o:
+	cd /home/ubuntu/Documents/Logger/LoggerCode/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/lib_log.dir/build.make src/CMakeFiles/lib_log.dir/LoggerClass.cpp.o
+.PHONY : LoggerClass.cpp.o
 
-LoggerBaseClass.i: LoggerBaseClass.cpp.i
-.PHONY : LoggerBaseClass.i
+LoggerClass.i: LoggerClass.cpp.i
+.PHONY : LoggerClass.i
 
 # target to preprocess a source file
-LoggerBaseClass.cpp.i:
-	cd /home/ubuntu/Documents/Logger/LoggerCode/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/lib_base.dir/build.make src/CMakeFiles/lib_base.dir/LoggerBaseClass.cpp.i
-.PHONY : LoggerBaseClass.cpp.i
+LoggerClass.cpp.i:
+	cd /home/ubuntu/Documents/Logger/LoggerCode/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/lib_log.dir/build.make src/CMakeFiles/lib_log.dir/LoggerClass.cpp.i
+.PHONY : LoggerClass.cpp.i
 
-LoggerBaseClass.s: LoggerBaseClass.cpp.s
-.PHONY : LoggerBaseClass.s
+LoggerClass.s: LoggerClass.cpp.s
+.PHONY : LoggerClass.s
 
 # target to generate assembly for a file
-LoggerBaseClass.cpp.s:
-	cd /home/ubuntu/Documents/Logger/LoggerCode/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/lib_base.dir/build.make src/CMakeFiles/lib_base.dir/LoggerBaseClass.cpp.s
-.PHONY : LoggerBaseClass.cpp.s
+LoggerClass.cpp.s:
+	cd /home/ubuntu/Documents/Logger/LoggerCode/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/lib_log.dir/build.make src/CMakeFiles/lib_log.dir/LoggerClass.cpp.s
+.PHONY : LoggerClass.cpp.s
+
+SyncClass.o: SyncClass.cpp.o
+.PHONY : SyncClass.o
+
+# target to build an object file
+SyncClass.cpp.o:
+	cd /home/ubuntu/Documents/Logger/LoggerCode/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/lib_base.dir/build.make src/CMakeFiles/lib_base.dir/SyncClass.cpp.o
+.PHONY : SyncClass.cpp.o
+
+SyncClass.i: SyncClass.cpp.i
+.PHONY : SyncClass.i
+
+# target to preprocess a source file
+SyncClass.cpp.i:
+	cd /home/ubuntu/Documents/Logger/LoggerCode/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/lib_base.dir/build.make src/CMakeFiles/lib_base.dir/SyncClass.cpp.i
+.PHONY : SyncClass.cpp.i
+
+SyncClass.s: SyncClass.cpp.s
+.PHONY : SyncClass.s
+
+# target to generate assembly for a file
+SyncClass.cpp.s:
+	cd /home/ubuntu/Documents/Logger/LoggerCode/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/lib_base.dir/build.make src/CMakeFiles/lib_base.dir/SyncClass.cpp.s
+.PHONY : SyncClass.cpp.s
 
 TerminalLogger.o: TerminalLogger.cpp.o
 .PHONY : TerminalLogger.o
@@ -279,13 +317,17 @@ help:
 	@echo "... bin_main"
 	@echo "... lib_base"
 	@echo "... lib_file"
+	@echo "... lib_log"
 	@echo "... lib_terminal"
 	@echo "... FileLogger.o"
 	@echo "... FileLogger.i"
 	@echo "... FileLogger.s"
-	@echo "... LoggerBaseClass.o"
-	@echo "... LoggerBaseClass.i"
-	@echo "... LoggerBaseClass.s"
+	@echo "... LoggerClass.o"
+	@echo "... LoggerClass.i"
+	@echo "... LoggerClass.s"
+	@echo "... SyncClass.o"
+	@echo "... SyncClass.i"
+	@echo "... SyncClass.s"
 	@echo "... TerminalLogger.o"
 	@echo "... TerminalLogger.i"
 	@echo "... TerminalLogger.s"

@@ -95,6 +95,9 @@ src/bin_main: src/CMakeFiles/bin_main.dir/build.make
 src/bin_main: src/liblib_base.a
 src/bin_main: src/liblib_terminal.a
 src/bin_main: src/liblib_file.a
+src/bin_main: src/liblib_log.a
+src/bin_main: src/liblib_terminal.a
+src/bin_main: src/liblib_file.a
 src/bin_main: src/liblib_base.a
 src/bin_main: src/CMakeFiles/bin_main.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/ubuntu/Documents/Logger/LoggerCode/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable bin_main"

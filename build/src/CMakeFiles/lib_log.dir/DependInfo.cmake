@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/ubuntu/Documents/Logger/LoggerCode/src/SyncClass.cpp" "src/CMakeFiles/lib_base.dir/SyncClass.cpp.o" "gcc" "src/CMakeFiles/lib_base.dir/SyncClass.cpp.o.d"
+  "/home/ubuntu/Documents/Logger/LoggerCode/src/LoggerClass.cpp" "src/CMakeFiles/lib_log.dir/LoggerClass.cpp.o" "gcc" "src/CMakeFiles/lib_log.dir/LoggerClass.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.
