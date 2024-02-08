@@ -1,6 +1,6 @@
 #include "LoggerClass.h"
 
-void Logger::log (const std::vector<SyncClass*>& sinks,SyncClass::Level level,const std::string& msg) { 
+void Logger::log (const std::vector<SyncClass*>& sinks,Level level,const std::string& msg) { 
 	for (auto sink:sinks) {
 		sink->printMsg(level,msg);
 	}

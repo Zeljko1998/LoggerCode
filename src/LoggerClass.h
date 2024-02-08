@@ -17,5 +17,5 @@ class Logger
 		
 		~Logger();
 		
-		void log (const std::vector<SyncClass*>& sinks,SyncClass::Level level,const std::string& msg);
+		void log (const std::vector<SyncClass*>& sinks,Level level,const std::string& msg);
 };

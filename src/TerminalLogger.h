@@ -6,7 +6,7 @@
 
 class TerminalLogger : public SyncClass {
 	public: 
-		void printMsg(SyncClass::Level logLevel, const std::string& msg) override;
+		void printMsg(Level logLevel, const std::string& msg) override;
 
 		~TerminalLogger() {}
 };

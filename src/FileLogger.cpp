@@ -12,16 +12,16 @@ FileLogger :: ~FileLogger() {
 
 void FileLogger::printMsg (Level logLevel, const std::string& msg) {
 	switch (logLevel) {
-	case L_TRACE:
+	case Level::TRACE:
 		file << printTimeAndDate() << " <TRACE> " << msg << "\n\n";
 		break;
-	case L_WARNING:
+	case Level::WARNING:
 		file << printTimeAndDate() << " <WARNING> " << msg << "\n\n";
 		break;
-	case L_ERROR:
+	case Level::ERROR:
 		file << printTimeAndDate() << " <ERROR> " << msg << "\n\n";
 		break;
-	case L_FATAL:
+	case Level::FATAL:
 		file << printTimeAndDate() << " <FATAL> " << msg << "\n\n";
 		break;
 	}

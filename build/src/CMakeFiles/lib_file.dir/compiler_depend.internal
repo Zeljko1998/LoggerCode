@@ -4,6 +4,7 @@
 src/CMakeFiles/lib_file.dir/FileLogger.cpp.o
  /home/ubuntu/Documents/Logger/LoggerCode/src/FileLogger.cpp
  /home/ubuntu/Documents/Logger/LoggerCode/src/FileLogger.h
+ /home/ubuntu/Documents/Logger/LoggerCode/src/LevelEnumClass.h
  /home/ubuntu/Documents/Logger/LoggerCode/src/SyncClass.h
  /usr/include/alloca.h
  /usr/include/asm-generic/errno-base.h

@@ -3,6 +3,7 @@
 
 src/CMakeFiles/lib_log.dir/LoggerClass.cpp.o: /home/ubuntu/Documents/Logger/LoggerCode/src/LoggerClass.cpp \
   /home/ubuntu/Documents/Logger/LoggerCode/src/FileLogger.h \
+  /home/ubuntu/Documents/Logger/LoggerCode/src/LevelEnumClass.h \
   /home/ubuntu/Documents/Logger/LoggerCode/src/LoggerClass.h \
   /home/ubuntu/Documents/Logger/LoggerCode/src/SyncClass.h \
   /home/ubuntu/Documents/Logger/LoggerCode/src/TerminalLogger.h \
@@ -390,14 +391,6 @@ src/CMakeFiles/lib_log.dir/LoggerClass.cpp.o: /home/ubuntu/Documents/Logger/Logg
 
 /usr/include/c++/13/bits/functional_hash.h:
 
-/usr/include/x86_64-linux-gnu/bits/struct_mutex.h:
-
-/usr/include/c++/13/bits/shared_ptr.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h:
-
-/home/ubuntu/Documents/Logger/LoggerCode/src/LoggerClass.h:
-
 /usr/include/c++/13/bits/nested_exception.h:
 
 /usr/include/c++/13/bits/stl_multimap.h:
@@ -413,6 +406,10 @@ src/CMakeFiles/lib_log.dir/LoggerClass.cpp.o: /home/ubuntu/Documents/Logger/Logg
 /usr/include/c++/13/streambuf:
 
 /usr/include/c++/13/bits/exception.h:
+
+/usr/include/c++/13/typeinfo:
+
+/usr/include/c++/13/bits/cxxabi_init_exception.h:
 
 /usr/include/x86_64-linux-gnu/sys/single_threaded.h:
 
@@ -454,6 +451,14 @@ src/CMakeFiles/lib_log.dir/LoggerClass.cpp.o: /home/ubuntu/Documents/Logger/Logg
 
 /usr/include/c++/13/bits/stl_vector.h:
 
+/usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h:
+
+/home/ubuntu/Documents/Logger/LoggerCode/src/LoggerClass.h:
+
+/usr/include/x86_64-linux-gnu/bits/struct_mutex.h:
+
+/usr/include/c++/13/bits/shared_ptr.h:
+
 /usr/include/c++/13/bits/move.h:
 
 /usr/include/x86_64-linux-gnu/bits/types.h:
@@ -461,10 +466,6 @@ src/CMakeFiles/lib_log.dir/LoggerClass.cpp.o: /home/ubuntu/Documents/Logger/Logg
 /usr/include/x86_64-linux-gnu/bits/stdint-intn.h:
 
 /usr/include/c++/13/bits/cpp_type_traits.h:
-
-/usr/include/c++/13/bits/concept_check.h:
-
-/usr/include/c++/13/bits/alloc_traits.h:
 
 /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h:
 
@@ -494,6 +495,10 @@ src/CMakeFiles/lib_log.dir/LoggerClass.cpp.o: /home/ubuntu/Documents/Logger/Logg
 
 /home/ubuntu/Documents/Logger/LoggerCode/src/LoggerClass.cpp:
 
+/usr/include/c++/13/bits/concept_check.h:
+
+/usr/include/c++/13/bits/alloc_traits.h:
+
 /usr/include/c++/13/bits/locale_facets.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
@@ -512,11 +517,11 @@ src/CMakeFiles/lib_log.dir/LoggerClass.cpp.o: /home/ubuntu/Documents/Logger/Logg
 
 /usr/include/c++/13/bits/basic_string.h:
 
-/usr/include/c++/13/bits/cxxabi_forced.h:
-
 /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
 
 /usr/include/c++/13/cstddef:
+
+/usr/include/c++/13/bits/cxxabi_forced.h:
 
 /usr/include/c++/13/bits/erase_if.h:
 
@@ -668,6 +673,8 @@ src/CMakeFiles/lib_log.dir/LoggerClass.cpp.o: /home/ubuntu/Documents/Logger/Logg
 
 /usr/include/c++/13/bits/basic_ios.tcc:
 
+/home/ubuntu/Documents/Logger/LoggerCode/src/LevelEnumClass.h:
+
 /usr/include/c++/13/pstl/execution_defs.h:
 
 /usr/include/x86_64-linux-gnu/bits/wordsize.h:
@@ -679,7 +686,3 @@ src/CMakeFiles/lib_log.dir/LoggerClass.cpp.o: /home/ubuntu/Documents/Logger/Logg
 /usr/include/c++/13/bits/range_access.h:
 
 /usr/include/c++/13/system_error:
-
-/usr/include/c++/13/bits/cxxabi_init_exception.h:
-
-/usr/include/c++/13/typeinfo:

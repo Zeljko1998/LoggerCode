@@ -3,6 +3,7 @@
 
 src/CMakeFiles/bin_main.dir/main.cpp.o: /home/ubuntu/Documents/Logger/LoggerCode/src/main.cpp \
   /home/ubuntu/Documents/Logger/LoggerCode/src/FileLogger.h \
+  /home/ubuntu/Documents/Logger/LoggerCode/src/LevelEnumClass.h \
   /home/ubuntu/Documents/Logger/LoggerCode/src/LoggerClass.h \
   /home/ubuntu/Documents/Logger/LoggerCode/src/SyncClass.h \
   /home/ubuntu/Documents/Logger/LoggerCode/src/TerminalLogger.h \
@@ -398,6 +399,10 @@ src/CMakeFiles/bin_main.dir/main.cpp.o: /home/ubuntu/Documents/Logger/LoggerCode
 
 /usr/include/c++/13/bits/exception.h:
 
+/usr/include/c++/13/typeinfo:
+
+/usr/include/c++/13/bits/cxxabi_init_exception.h:
+
 /usr/include/x86_64-linux-gnu/sys/single_threaded.h:
 
 /usr/include/c++/13/type_traits:
@@ -425,10 +430,6 @@ src/CMakeFiles/bin_main.dir/main.cpp.o: /home/ubuntu/Documents/Logger/LoggerCode
 /usr/include/x86_64-linux-gnu/bits/stdint-intn.h:
 
 /usr/include/c++/13/bits/cpp_type_traits.h:
-
-/usr/include/c++/13/bits/concept_check.h:
-
-/usr/include/c++/13/bits/alloc_traits.h:
 
 /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h:
 
@@ -488,6 +489,10 @@ src/CMakeFiles/bin_main.dir/main.cpp.o: /home/ubuntu/Documents/Logger/LoggerCode
 
 /usr/include/c++/13/bits/exception_ptr.h:
 
+/usr/include/c++/13/bits/concept_check.h:
+
+/usr/include/c++/13/bits/alloc_traits.h:
+
 /usr/include/c++/13/bits/locale_facets.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
@@ -512,11 +517,11 @@ src/CMakeFiles/bin_main.dir/main.cpp.o: /home/ubuntu/Documents/Logger/LoggerCode
 
 /usr/include/c++/13/bits/ptr_traits.h:
 
-/usr/include/c++/13/bits/cxxabi_forced.h:
-
 /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
 
 /usr/include/c++/13/cstddef:
+
+/usr/include/c++/13/bits/cxxabi_forced.h:
 
 /usr/include/c++/13/bits/erase_if.h:
 
@@ -666,6 +671,8 @@ src/CMakeFiles/bin_main.dir/main.cpp.o: /home/ubuntu/Documents/Logger/LoggerCode
 
 /usr/include/x86_64-linux-gnu/c++/13/bits/gthr.h:
 
+/home/ubuntu/Documents/Logger/LoggerCode/src/LevelEnumClass.h:
+
 /usr/include/c++/13/bits/basic_ios.tcc:
 
 /usr/include/c++/13/pstl/execution_defs.h:
@@ -679,7 +686,3 @@ src/CMakeFiles/bin_main.dir/main.cpp.o: /home/ubuntu/Documents/Logger/LoggerCode
 /usr/include/c++/13/bits/range_access.h:
 
 /usr/include/c++/13/system_error:
-
-/usr/include/c++/13/bits/cxxabi_init_exception.h:
-
-/usr/include/c++/13/typeinfo:

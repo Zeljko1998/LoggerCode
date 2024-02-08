@@ -3,6 +3,7 @@
 
 src/CMakeFiles/lib_file.dir/FileLogger.cpp.o: /home/ubuntu/Documents/Logger/LoggerCode/src/FileLogger.cpp \
   /home/ubuntu/Documents/Logger/LoggerCode/src/FileLogger.h \
+  /home/ubuntu/Documents/Logger/LoggerCode/src/LevelEnumClass.h \
   /home/ubuntu/Documents/Logger/LoggerCode/src/SyncClass.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/errno-base.h \
@@ -310,6 +311,10 @@ src/CMakeFiles/lib_file.dir/FileLogger.cpp.o: /home/ubuntu/Documents/Logger/Logg
 
 /usr/include/x86_64-linux-gnu/bits/floatn-common.h:
 
+/usr/include/x86_64-linux-gnu/gnu/stubs.h:
+
+/usr/include/x86_64-linux-gnu/bits/endian.h:
+
 /usr/include/c++/13/bits/stl_construct.h:
 
 /usr/include/c++/13/bits/fstream.tcc:
@@ -344,9 +349,11 @@ src/CMakeFiles/lib_file.dir/FileLogger.cpp.o: /home/ubuntu/Documents/Logger/Logg
 
 /usr/include/c++/13/bits/ostream.tcc:
 
-/home/ubuntu/Documents/Logger/LoggerCode/src/SyncClass.h:
+/usr/include/c++/13/bits/hash_bytes.h:
 
-/usr/include/c++/13/bits/codecvt.h:
+/usr/include/asm-generic/errno-base.h:
+
+/home/ubuntu/Documents/Logger/LoggerCode/src/SyncClass.h:
 
 /usr/include/c++/13/bits/move.h:
 
@@ -366,6 +373,10 @@ src/CMakeFiles/lib_file.dir/FileLogger.cpp.o: /home/ubuntu/Documents/Logger/Logg
 
 /usr/include/c++/13/bits/stringfwd.h:
 
+/usr/include/c++/13/bits/codecvt.h:
+
+/usr/include/stdint.h:
+
 /usr/include/c++/13/cwctype:
 
 /usr/include/c++/13/bits/predefined_ops.h:
@@ -378,15 +389,13 @@ src/CMakeFiles/lib_file.dir/FileLogger.cpp.o: /home/ubuntu/Documents/Logger/Logg
 
 /usr/include/c++/13/cwchar:
 
-/usr/include/asm-generic/errno-base.h:
-
-/usr/include/c++/13/bits/hash_bytes.h:
-
 /usr/include/x86_64-linux-gnu/bits/time64.h:
 
 /usr/include/c++/13/bits/basic_ios.h:
 
 /usr/include/x86_64-linux-gnu/c++/13/bits/gthr.h:
+
+/home/ubuntu/Documents/Logger/LoggerCode/src/LevelEnumClass.h:
 
 /usr/include/c++/13/bits/basic_ios.tcc:
 
@@ -402,19 +411,11 @@ src/CMakeFiles/lib_file.dir/FileLogger.cpp.o: /home/ubuntu/Documents/Logger/Logg
 
 /usr/include/c++/13/bits/basic_string.tcc:
 
-/usr/include/c++/13/bits/stl_map.h:
-
 /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h:
 
 /usr/include/c++/13/bits/ios_base.h:
 
 /home/ubuntu/Documents/Logger/LoggerCode/src/FileLogger.h:
-
-/usr/include/x86_64-linux-gnu/bits/endianness.h:
-
-/usr/include/c++/13/bits/basic_string.h:
-
-/usr/include/stdc-predef.h:
 
 /home/ubuntu/Documents/Logger/LoggerCode/src/FileLogger.cpp:
 
@@ -423,6 +424,12 @@ src/CMakeFiles/lib_file.dir/FileLogger.cpp.o: /home/ubuntu/Documents/Logger/Logg
 /usr/include/c++/13/bits/memoryfwd.h:
 
 /usr/include/time.h:
+
+/usr/include/x86_64-linux-gnu/bits/endianness.h:
+
+/usr/include/c++/13/bits/basic_string.h:
+
+/usr/include/stdc-predef.h:
 
 /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h:
 
@@ -475,6 +482,8 @@ src/CMakeFiles/lib_file.dir/FileLogger.cpp.o: /home/ubuntu/Documents/Logger/Logg
 /usr/include/c++/13/bits/concept_check.h:
 
 /usr/include/c++/13/bits/alloc_traits.h:
+
+/usr/include/c++/13/bits/stl_map.h:
 
 /usr/include/c++/13/bits/stl_tree.h:
 
@@ -596,8 +605,6 @@ src/CMakeFiles/lib_file.dir/FileLogger.cpp.o: /home/ubuntu/Documents/Logger/Logg
 
 /usr/include/sched.h:
 
-/usr/include/stdint.h:
-
 /usr/include/stdlib.h:
 
 /usr/include/x86_64-linux-gnu/bits/errno.h:
@@ -613,7 +620,3 @@ src/CMakeFiles/lib_file.dir/FileLogger.cpp.o: /home/ubuntu/Documents/Logger/Logg
 /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h:
 
 /usr/include/x86_64-linux-gnu/bits/byteswap.h:
-
-/usr/include/x86_64-linux-gnu/gnu/stubs.h:
-
-/usr/include/x86_64-linux-gnu/bits/endian.h:

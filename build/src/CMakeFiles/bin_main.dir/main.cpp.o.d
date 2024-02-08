@@ -179,6 +179,7 @@ src/CMakeFiles/bin_main.dir/main.cpp.o: \
  /usr/include/c++/13/bits/stl_map.h \
  /usr/include/c++/13/bits/stl_multimap.h \
  /usr/include/c++/13/bits/erase_if.h \
+ /home/ubuntu/Documents/Logger/LoggerCode/src/LevelEnumClass.h \
  /home/ubuntu/Documents/Logger/LoggerCode/src/FileLogger.h \
  /usr/include/c++/13/fstream /usr/include/c++/13/bits/codecvt.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/basic_file.h \

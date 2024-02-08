@@ -4,6 +4,7 @@
 src/CMakeFiles/bin_main.dir/main.cpp.o
  /home/ubuntu/Documents/Logger/LoggerCode/src/main.cpp
  /home/ubuntu/Documents/Logger/LoggerCode/src/FileLogger.h
+ /home/ubuntu/Documents/Logger/LoggerCode/src/LevelEnumClass.h
  /home/ubuntu/Documents/Logger/LoggerCode/src/LoggerClass.h
  /home/ubuntu/Documents/Logger/LoggerCode/src/SyncClass.h
  /home/ubuntu/Documents/Logger/LoggerCode/src/TerminalLogger.h
