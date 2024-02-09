@@ -6,7 +6,7 @@
 
 class TerminalSink : public SinkClass {
 	public: 
-		void printMsg(Level logLevel, const std::string& msg) override;
+		void printMsg(const Level& logLevel, const std::string& msg) override;
 
 		~TerminalSink() {}
 };

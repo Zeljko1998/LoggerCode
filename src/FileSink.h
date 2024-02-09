@@ -6,7 +6,7 @@
 class FileSink : public SinkClass {
 	std::fstream file;
 public:
-	void printMsg(Level logLevel, const std::string& msg) override;
+	void printMsg(const Level& logLevel, const std::string& msg) override;
 	FileSink(const std::string& fileName);
 	~FileSink();
 };

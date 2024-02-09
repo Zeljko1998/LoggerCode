@@ -12,5 +12,5 @@ Logger::Logger() {
 }
 
 void Logger::addSink(const  std::string& fileName) {
-	sinkVec.push_back(std::make_unique<FileSink>(fileName));
+	sinkVec.push_back(std::make_unique<FileSink>(fileName));1
 }

@@ -10,7 +10,7 @@ FileSink :: ~FileSink() {
 }
 
 
-void FileSink::printMsg (Level logLevel, const std::string& msg) {
+void FileSink::printMsg (const Level& logLevel, const std::string& msg) {
 	switch (logLevel) {
 	case Level::TRACE:
 		file << printTimeAndDate() << " <TRACE> " << msg << "\n\n";
