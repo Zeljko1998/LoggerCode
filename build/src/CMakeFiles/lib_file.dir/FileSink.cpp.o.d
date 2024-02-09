@@ -1,8 +1,8 @@
-src/CMakeFiles/lib_file.dir/FileLogger.cpp.o: \
- /home/ubuntu/Documents/LoggerCode/src/FileLogger.cpp \
+src/CMakeFiles/lib_file.dir/FileSink.cpp.o: \
+ /home/ubuntu/Documents/LoggerCode/src/FileSink.cpp \
  /usr/include/stdc-predef.h \
- /home/ubuntu/Documents/LoggerCode/src/FileLogger.h \
- /home/ubuntu/Documents/LoggerCode/src/SyncClass.h \
+ /home/ubuntu/Documents/LoggerCode/src/FileSink.h \
+ /home/ubuntu/Documents/LoggerCode/src/SinkClass.h \
  /usr/include/c++/13/iostream /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \

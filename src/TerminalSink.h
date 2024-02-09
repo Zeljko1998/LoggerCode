@@ -1,12 +1,12 @@
 #pragma once
-#include "SyncClass.h"
+#include "SinkClass.h"
 #include <string>
 #include <iostream>
 
 
-class TerminalLogger : public SyncClass {
+class TerminalSink : public SinkClass {
 	public: 
 		void printMsg(Level logLevel, const std::string& msg) override;
 
-		~TerminalLogger() {}
+		~TerminalSink() {}
 };

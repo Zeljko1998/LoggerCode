@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/ubuntu/Documents/LoggerCode/src/FileLogger.cpp" "src/CMakeFiles/lib_file.dir/FileLogger.cpp.o" "gcc" "src/CMakeFiles/lib_file.dir/FileLogger.cpp.o.d"
+  "/home/ubuntu/Documents/LoggerCode/src/FileSink.cpp" "src/CMakeFiles/lib_file.dir/FileSink.cpp.o" "gcc" "src/CMakeFiles/lib_file.dir/FileSink.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

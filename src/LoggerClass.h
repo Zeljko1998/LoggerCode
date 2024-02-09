@@ -3,19 +3,21 @@
 #include <string>
 #include <memory>
 
-#include "SyncClass.h"
-#include "TerminalLogger.h"
-#include "FileLogger.h"
+#include "SinkClass.h"
+#include "TerminalSink.h"
+#include "FileSink.h"
 
 class Logger
 {	
 	private:
-		std::shared_ptr<TerminalLogger> tLog;
-		std::shared_ptr<FileLogger> fLog;
+		std::vector<std::unique_ptr<SinkClass>> sinkVec;
+		
 	public:
-		Logger(std::vector<SyncClass*>& sinks, const std::string& fileName);
+		Logger();
 		
-		~Logger();
+		~Logger() {}
 		
-		void log (const std::vector<SyncClass*>& sinks,Level level,const std::string& msg);
+		void log (Level level,const std::string& msg);
+
+		void addSink(const std::string& fileName);
 };

@@ -1,7 +1,7 @@
-#include "SyncClass.h"
+#include "SinkClass.h"
 
 
-char* SyncClass:: printTimeAndDate() {
+char* SinkClass:: printTimeAndDate() {
 	timeAndDate = time(&timeAndDate);
 	return asctime(localtime(&timeAndDate));
 }

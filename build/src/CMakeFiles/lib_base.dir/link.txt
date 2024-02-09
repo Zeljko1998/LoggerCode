@@ -1,2 +1,2 @@
-/usr/bin/ar qc liblib_base.a CMakeFiles/lib_base.dir/SyncClass.cpp.o
+/usr/bin/ar qc liblib_base.a CMakeFiles/lib_base.dir/SinkClass.cpp.o
 /usr/bin/ranlib liblib_base.a

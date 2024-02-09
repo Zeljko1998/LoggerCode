@@ -5,19 +5,21 @@
 #include <memory>
 
 //Local libraries
-#include "TerminalLogger.h"
+#include "TerminalSink.h"
 #include "LevelEnumClass.h"
-#include "FileLogger.h"
+#include "FileSink.h"
 #include "LoggerClass.h"
-#include "SyncClass.h"
+#include "SinkClass.h"
 
 int main()  
 {   
-    std::vector<SyncClass*> sinks;
-    Logger logger(sinks, "NewLogFile.txt");
+    Logger logger;
 
-    logger.log (sinks,Level::ERROR,   "Error   0_0_0_0_0_0_0_0");
-    logger.log (sinks,Level::WARNING, "Warning 0_0_0_0_0_0_0_1");
-    logger.log (sinks,Level::TRACE,   "Trace   0_0_0_0_0_0_1_0");
-    logger.log (sinks,Level::FATAL,   "Fatal   0_0_0_0_0_0_1_1");
+    logger.log (Level::ERROR,   "Error   0_0_0_0_0_0_0_0");
+    logger.log (Level::WARNING, "Warning 0_0_0_0_0_0_0_1");
+
+    logger.addSink("NewLogFile.txt");
+    
+    logger.log (Level::TRACE,   "Trace   0_0_0_0_0_0_1_0");
+    logger.log (Level::FATAL,   "Fatal   0_0_0_0_0_0_1_1");
 }

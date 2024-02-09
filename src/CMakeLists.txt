@@ -1,8 +1,8 @@
 add_executable (bin_main main.cpp)
 
-add_library(lib_base SyncClass.cpp)
-add_library(lib_terminal TerminalLogger.cpp)
-add_library(lib_file FileLogger.cpp)
+add_library(lib_base SinkClass.cpp)
+add_library(lib_terminal TerminalSink.cpp)
+add_library(lib_file FileSink.cpp)
 add_library(lib_log LoggerClass.cpp)
 
 target_link_libraries(lib_terminal lib_base)

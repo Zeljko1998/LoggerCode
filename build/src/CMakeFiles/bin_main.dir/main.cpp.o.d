@@ -171,8 +171,8 @@ src/CMakeFiles/bin_main.dir/main.cpp.o: \
  /usr/include/c++/13/backward/auto_ptr.h \
  /usr/include/c++/13/pstl/glue_memory_defs.h \
  /usr/include/c++/13/pstl/execution_defs.h \
- /home/ubuntu/Documents/LoggerCode/src/TerminalLogger.h \
- /home/ubuntu/Documents/LoggerCode/src/SyncClass.h \
+ /home/ubuntu/Documents/LoggerCode/src/TerminalSink.h \
+ /home/ubuntu/Documents/LoggerCode/src/SinkClass.h \
  /usr/include/c++/13/ctime /usr/include/c++/13/cstdint \
  /usr/include/c++/13/map /usr/include/c++/13/bits/stl_tree.h \
  /usr/include/c++/13/bits/node_handle.h \
@@ -180,7 +180,7 @@ src/CMakeFiles/bin_main.dir/main.cpp.o: \
  /usr/include/c++/13/bits/stl_multimap.h \
  /usr/include/c++/13/bits/erase_if.h \
  /home/ubuntu/Documents/LoggerCode/src/LevelEnumClass.h \
- /home/ubuntu/Documents/LoggerCode/src/FileLogger.h \
+ /home/ubuntu/Documents/LoggerCode/src/FileSink.h \
  /usr/include/c++/13/fstream /usr/include/c++/13/bits/codecvt.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/basic_file.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++io.h \

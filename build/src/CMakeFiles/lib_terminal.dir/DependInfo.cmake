@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/ubuntu/Documents/LoggerCode/src/TerminalLogger.cpp" "src/CMakeFiles/lib_terminal.dir/TerminalLogger.cpp.o" "gcc" "src/CMakeFiles/lib_terminal.dir/TerminalLogger.cpp.o.d"
+  "/home/ubuntu/Documents/LoggerCode/src/TerminalSink.cpp" "src/CMakeFiles/lib_terminal.dir/TerminalSink.cpp.o" "gcc" "src/CMakeFiles/lib_terminal.dir/TerminalSink.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

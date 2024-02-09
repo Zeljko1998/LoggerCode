@@ -1,21 +1,16 @@
 #include "LoggerClass.h"
 
-void Logger::log (const std::vector<SyncClass*>& sinks,Level level,const std::string& msg) { 
-	for (auto sink:sinks) {
+void Logger::log (Level level,const std::string& msg) { 
+	for (const auto& sink:sinkVec) {
 		sink->printMsg(level,msg);
-	}
+	}	
 }
 
 
-Logger::Logger(std::vector<SyncClass*>& sinks, const std::string& fileName) {
-	tLog = std::make_shared<TerminalLogger>();
-	fLog = std::make_shared<FileLogger>(fileName);
-
-	sinks.emplace_back(tLog.get());
-	sinks.emplace_back(fLog.get());
+Logger::Logger() {
+	sinkVec.push_back(std::make_unique<TerminalSink>());
 }
 
-Logger::~Logger() {
-	tLog.reset();
-	fLog.reset();
+void Logger::addSink(const  std::string& fileName) {
+	sinkVec.push_back(std::make_unique<FileSink>(fileName));
 }

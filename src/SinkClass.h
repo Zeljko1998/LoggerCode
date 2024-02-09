@@ -10,7 +10,7 @@
 //Local libraries
 #include "LevelEnumClass.h"
 
-class SyncClass {
+class SinkClass {
 public:	
 	time_t timeAndDate;
 	tm *localTime;
@@ -21,5 +21,5 @@ public:
 	
 	char* printTimeAndDate();
 
-	virtual ~SyncClass() {}
+	virtual ~SinkClass() {}
 };

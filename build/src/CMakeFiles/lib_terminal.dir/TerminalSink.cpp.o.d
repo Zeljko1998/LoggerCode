@@ -1,8 +1,8 @@
-src/CMakeFiles/lib_terminal.dir/TerminalLogger.cpp.o: \
- /home/ubuntu/Documents/LoggerCode/src/TerminalLogger.cpp \
+src/CMakeFiles/lib_terminal.dir/TerminalSink.cpp.o: \
+ /home/ubuntu/Documents/LoggerCode/src/TerminalSink.cpp \
  /usr/include/stdc-predef.h \
- /home/ubuntu/Documents/LoggerCode/src/TerminalLogger.h \
- /home/ubuntu/Documents/LoggerCode/src/SyncClass.h \
+ /home/ubuntu/Documents/LoggerCode/src/TerminalSink.h \
+ /home/ubuntu/Documents/LoggerCode/src/SinkClass.h \
  /usr/include/c++/13/iostream /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \

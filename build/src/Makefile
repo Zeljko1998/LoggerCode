@@ -186,29 +186,29 @@ lib_log/fast:
 	cd /home/ubuntu/Documents/LoggerCode/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/lib_log.dir/build.make src/CMakeFiles/lib_log.dir/build
 .PHONY : lib_log/fast
 
-FileLogger.o: FileLogger.cpp.o
-.PHONY : FileLogger.o
+FileSink.o: FileSink.cpp.o
+.PHONY : FileSink.o
 
 # target to build an object file
-FileLogger.cpp.o:
-	cd /home/ubuntu/Documents/LoggerCode/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/lib_file.dir/build.make src/CMakeFiles/lib_file.dir/FileLogger.cpp.o
-.PHONY : FileLogger.cpp.o
+FileSink.cpp.o:
+	cd /home/ubuntu/Documents/LoggerCode/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/lib_file.dir/build.make src/CMakeFiles/lib_file.dir/FileSink.cpp.o
+.PHONY : FileSink.cpp.o
 
-FileLogger.i: FileLogger.cpp.i
-.PHONY : FileLogger.i
+FileSink.i: FileSink.cpp.i
+.PHONY : FileSink.i
 
 # target to preprocess a source file
-FileLogger.cpp.i:
-	cd /home/ubuntu/Documents/LoggerCode/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/lib_file.dir/build.make src/CMakeFiles/lib_file.dir/FileLogger.cpp.i
-.PHONY : FileLogger.cpp.i
+FileSink.cpp.i:
+	cd /home/ubuntu/Documents/LoggerCode/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/lib_file.dir/build.make src/CMakeFiles/lib_file.dir/FileSink.cpp.i
+.PHONY : FileSink.cpp.i
 
-FileLogger.s: FileLogger.cpp.s
-.PHONY : FileLogger.s
+FileSink.s: FileSink.cpp.s
+.PHONY : FileSink.s
 
 # target to generate assembly for a file
-FileLogger.cpp.s:
-	cd /home/ubuntu/Documents/LoggerCode/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/lib_file.dir/build.make src/CMakeFiles/lib_file.dir/FileLogger.cpp.s
-.PHONY : FileLogger.cpp.s
+FileSink.cpp.s:
+	cd /home/ubuntu/Documents/LoggerCode/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/lib_file.dir/build.make src/CMakeFiles/lib_file.dir/FileSink.cpp.s
+.PHONY : FileSink.cpp.s
 
 LoggerClass.o: LoggerClass.cpp.o
 .PHONY : LoggerClass.o
@@ -234,53 +234,53 @@ LoggerClass.cpp.s:
 	cd /home/ubuntu/Documents/LoggerCode/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/lib_log.dir/build.make src/CMakeFiles/lib_log.dir/LoggerClass.cpp.s
 .PHONY : LoggerClass.cpp.s
 
-SyncClass.o: SyncClass.cpp.o
-.PHONY : SyncClass.o
+SinkClass.o: SinkClass.cpp.o
+.PHONY : SinkClass.o
 
 # target to build an object file
-SyncClass.cpp.o:
-	cd /home/ubuntu/Documents/LoggerCode/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/lib_base.dir/build.make src/CMakeFiles/lib_base.dir/SyncClass.cpp.o
-.PHONY : SyncClass.cpp.o
+SinkClass.cpp.o:
+	cd /home/ubuntu/Documents/LoggerCode/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/lib_base.dir/build.make src/CMakeFiles/lib_base.dir/SinkClass.cpp.o
+.PHONY : SinkClass.cpp.o
 
-SyncClass.i: SyncClass.cpp.i
-.PHONY : SyncClass.i
+SinkClass.i: SinkClass.cpp.i
+.PHONY : SinkClass.i
 
 # target to preprocess a source file
-SyncClass.cpp.i:
-	cd /home/ubuntu/Documents/LoggerCode/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/lib_base.dir/build.make src/CMakeFiles/lib_base.dir/SyncClass.cpp.i
-.PHONY : SyncClass.cpp.i
+SinkClass.cpp.i:
+	cd /home/ubuntu/Documents/LoggerCode/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/lib_base.dir/build.make src/CMakeFiles/lib_base.dir/SinkClass.cpp.i
+.PHONY : SinkClass.cpp.i
 
-SyncClass.s: SyncClass.cpp.s
-.PHONY : SyncClass.s
+SinkClass.s: SinkClass.cpp.s
+.PHONY : SinkClass.s
 
 # target to generate assembly for a file
-SyncClass.cpp.s:
-	cd /home/ubuntu/Documents/LoggerCode/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/lib_base.dir/build.make src/CMakeFiles/lib_base.dir/SyncClass.cpp.s
-.PHONY : SyncClass.cpp.s
+SinkClass.cpp.s:
+	cd /home/ubuntu/Documents/LoggerCode/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/lib_base.dir/build.make src/CMakeFiles/lib_base.dir/SinkClass.cpp.s
+.PHONY : SinkClass.cpp.s
 
-TerminalLogger.o: TerminalLogger.cpp.o
-.PHONY : TerminalLogger.o
+TerminalSink.o: TerminalSink.cpp.o
+.PHONY : TerminalSink.o
 
 # target to build an object file
-TerminalLogger.cpp.o:
-	cd /home/ubuntu/Documents/LoggerCode/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/lib_terminal.dir/build.make src/CMakeFiles/lib_terminal.dir/TerminalLogger.cpp.o
-.PHONY : TerminalLogger.cpp.o
+TerminalSink.cpp.o:
+	cd /home/ubuntu/Documents/LoggerCode/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/lib_terminal.dir/build.make src/CMakeFiles/lib_terminal.dir/TerminalSink.cpp.o
+.PHONY : TerminalSink.cpp.o
 
-TerminalLogger.i: TerminalLogger.cpp.i
-.PHONY : TerminalLogger.i
+TerminalSink.i: TerminalSink.cpp.i
+.PHONY : TerminalSink.i
 
 # target to preprocess a source file
-TerminalLogger.cpp.i:
-	cd /home/ubuntu/Documents/LoggerCode/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/lib_terminal.dir/build.make src/CMakeFiles/lib_terminal.dir/TerminalLogger.cpp.i
-.PHONY : TerminalLogger.cpp.i
+TerminalSink.cpp.i:
+	cd /home/ubuntu/Documents/LoggerCode/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/lib_terminal.dir/build.make src/CMakeFiles/lib_terminal.dir/TerminalSink.cpp.i
+.PHONY : TerminalSink.cpp.i
 
-TerminalLogger.s: TerminalLogger.cpp.s
-.PHONY : TerminalLogger.s
+TerminalSink.s: TerminalSink.cpp.s
+.PHONY : TerminalSink.s
 
 # target to generate assembly for a file
-TerminalLogger.cpp.s:
-	cd /home/ubuntu/Documents/LoggerCode/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/lib_terminal.dir/build.make src/CMakeFiles/lib_terminal.dir/TerminalLogger.cpp.s
-.PHONY : TerminalLogger.cpp.s
+TerminalSink.cpp.s:
+	cd /home/ubuntu/Documents/LoggerCode/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/lib_terminal.dir/build.make src/CMakeFiles/lib_terminal.dir/TerminalSink.cpp.s
+.PHONY : TerminalSink.cpp.s
 
 main.o: main.cpp.o
 .PHONY : main.o
@@ -319,18 +319,18 @@ help:
 	@echo "... lib_file"
 	@echo "... lib_log"
 	@echo "... lib_terminal"
-	@echo "... FileLogger.o"
-	@echo "... FileLogger.i"
-	@echo "... FileLogger.s"
+	@echo "... FileSink.o"
+	@echo "... FileSink.i"
+	@echo "... FileSink.s"
 	@echo "... LoggerClass.o"
 	@echo "... LoggerClass.i"
 	@echo "... LoggerClass.s"
-	@echo "... SyncClass.o"
-	@echo "... SyncClass.i"
-	@echo "... SyncClass.s"
-	@echo "... TerminalLogger.o"
-	@echo "... TerminalLogger.i"
-	@echo "... TerminalLogger.s"
+	@echo "... SinkClass.o"
+	@echo "... SinkClass.i"
+	@echo "... SinkClass.s"
+	@echo "... TerminalSink.o"
+	@echo "... TerminalSink.i"
+	@echo "... TerminalSink.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

@@ -1,16 +1,16 @@
-#include "FileLogger.h"
+#include "FileSink.h"
 
 
-FileLogger::FileLogger(const std::string& fileName) {
+FileSink::FileSink(const std::string& fileName) {
 	file.open(fileName, std::ios::out);
 }
 
-FileLogger :: ~FileLogger() {
+FileSink :: ~FileSink() {
 	file.close();
 }
 
 
-void FileLogger::printMsg (Level logLevel, const std::string& msg) {
+void FileSink::printMsg (Level logLevel, const std::string& msg) {
 	switch (logLevel) {
 	case Level::TRACE:
 		file << printTimeAndDate() << " <TRACE> " << msg << "\n\n";
