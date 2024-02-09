@@ -1,7 +1,7 @@
 src/CMakeFiles/lib_base.dir/SyncClass.cpp.o: \
- /home/ubuntu/Documents/Logger/LoggerCode/src/SyncClass.cpp \
+ /home/ubuntu/Documents/LoggerCode/src/SyncClass.cpp \
  /usr/include/stdc-predef.h \
- /home/ubuntu/Documents/Logger/LoggerCode/src/SyncClass.h \
+ /home/ubuntu/Documents/LoggerCode/src/SyncClass.h \
  /usr/include/c++/13/iostream /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
@@ -160,4 +160,4 @@ src/CMakeFiles/lib_base.dir/SyncClass.cpp.o: \
  /usr/include/c++/13/bits/stl_map.h \
  /usr/include/c++/13/bits/stl_multimap.h \
  /usr/include/c++/13/bits/erase_if.h \
- /home/ubuntu/Documents/Logger/LoggerCode/src/LevelEnumClass.h
+ /home/ubuntu/Documents/LoggerCode/src/LevelEnumClass.h

@@ -1,4 +1,4 @@
-# Install script for directory: /home/ubuntu/Documents/Logger/LoggerCode/src
+# Install script for directory: /home/ubuntu/Documents/LoggerCode/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

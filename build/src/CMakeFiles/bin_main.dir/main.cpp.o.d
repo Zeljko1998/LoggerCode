@@ -1,5 +1,5 @@
 src/CMakeFiles/bin_main.dir/main.cpp.o: \
- /home/ubuntu/Documents/Logger/LoggerCode/src/main.cpp \
+ /home/ubuntu/Documents/LoggerCode/src/main.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/13/iostream \
  /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
@@ -171,18 +171,18 @@ src/CMakeFiles/bin_main.dir/main.cpp.o: \
  /usr/include/c++/13/backward/auto_ptr.h \
  /usr/include/c++/13/pstl/glue_memory_defs.h \
  /usr/include/c++/13/pstl/execution_defs.h \
- /home/ubuntu/Documents/Logger/LoggerCode/src/TerminalLogger.h \
- /home/ubuntu/Documents/Logger/LoggerCode/src/SyncClass.h \
+ /home/ubuntu/Documents/LoggerCode/src/TerminalLogger.h \
+ /home/ubuntu/Documents/LoggerCode/src/SyncClass.h \
  /usr/include/c++/13/ctime /usr/include/c++/13/cstdint \
  /usr/include/c++/13/map /usr/include/c++/13/bits/stl_tree.h \
  /usr/include/c++/13/bits/node_handle.h \
  /usr/include/c++/13/bits/stl_map.h \
  /usr/include/c++/13/bits/stl_multimap.h \
  /usr/include/c++/13/bits/erase_if.h \
- /home/ubuntu/Documents/Logger/LoggerCode/src/LevelEnumClass.h \
- /home/ubuntu/Documents/Logger/LoggerCode/src/FileLogger.h \
+ /home/ubuntu/Documents/LoggerCode/src/LevelEnumClass.h \
+ /home/ubuntu/Documents/LoggerCode/src/FileLogger.h \
  /usr/include/c++/13/fstream /usr/include/c++/13/bits/codecvt.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/basic_file.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++io.h \
  /usr/include/c++/13/bits/fstream.tcc \
- /home/ubuntu/Documents/Logger/LoggerCode/src/LoggerClass.h
+ /home/ubuntu/Documents/LoggerCode/src/LoggerClass.h

@@ -1,7 +1,7 @@
 src/CMakeFiles/lib_log.dir/LoggerClass.cpp.o: \
- /home/ubuntu/Documents/Logger/LoggerCode/src/LoggerClass.cpp \
+ /home/ubuntu/Documents/LoggerCode/src/LoggerClass.cpp \
  /usr/include/stdc-predef.h \
- /home/ubuntu/Documents/Logger/LoggerCode/src/LoggerClass.h \
+ /home/ubuntu/Documents/LoggerCode/src/LoggerClass.h \
  /usr/include/c++/13/vector /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
@@ -155,7 +155,7 @@ src/CMakeFiles/lib_log.dir/LoggerClass.cpp.o: \
  /usr/include/c++/13/backward/auto_ptr.h \
  /usr/include/c++/13/pstl/glue_memory_defs.h \
  /usr/include/c++/13/pstl/execution_defs.h \
- /home/ubuntu/Documents/Logger/LoggerCode/src/SyncClass.h \
+ /home/ubuntu/Documents/LoggerCode/src/SyncClass.h \
  /usr/include/c++/13/iostream /usr/include/c++/13/ostream \
  /usr/include/c++/13/ios /usr/include/c++/13/bits/ios_base.h \
  /usr/include/c++/13/bits/locale_classes.h \
@@ -180,9 +180,9 @@ src/CMakeFiles/lib_log.dir/LoggerClass.cpp.o: \
  /usr/include/c++/13/bits/stl_map.h \
  /usr/include/c++/13/bits/stl_multimap.h \
  /usr/include/c++/13/bits/erase_if.h \
- /home/ubuntu/Documents/Logger/LoggerCode/src/LevelEnumClass.h \
- /home/ubuntu/Documents/Logger/LoggerCode/src/TerminalLogger.h \
- /home/ubuntu/Documents/Logger/LoggerCode/src/FileLogger.h \
+ /home/ubuntu/Documents/LoggerCode/src/LevelEnumClass.h \
+ /home/ubuntu/Documents/LoggerCode/src/TerminalLogger.h \
+ /home/ubuntu/Documents/LoggerCode/src/FileLogger.h \
  /usr/include/c++/13/fstream /usr/include/c++/13/bits/codecvt.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/basic_file.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++io.h \

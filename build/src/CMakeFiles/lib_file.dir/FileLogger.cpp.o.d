@@ -1,8 +1,8 @@
 src/CMakeFiles/lib_file.dir/FileLogger.cpp.o: \
- /home/ubuntu/Documents/Logger/LoggerCode/src/FileLogger.cpp \
+ /home/ubuntu/Documents/LoggerCode/src/FileLogger.cpp \
  /usr/include/stdc-predef.h \
- /home/ubuntu/Documents/Logger/LoggerCode/src/FileLogger.h \
- /home/ubuntu/Documents/Logger/LoggerCode/src/SyncClass.h \
+ /home/ubuntu/Documents/LoggerCode/src/FileLogger.h \
+ /home/ubuntu/Documents/LoggerCode/src/SyncClass.h \
  /usr/include/c++/13/iostream /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
@@ -161,7 +161,7 @@ src/CMakeFiles/lib_file.dir/FileLogger.cpp.o: \
  /usr/include/c++/13/bits/stl_map.h \
  /usr/include/c++/13/bits/stl_multimap.h \
  /usr/include/c++/13/bits/erase_if.h \
- /home/ubuntu/Documents/Logger/LoggerCode/src/LevelEnumClass.h \
+ /home/ubuntu/Documents/LoggerCode/src/LevelEnumClass.h \
  /usr/include/c++/13/fstream /usr/include/c++/13/bits/codecvt.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/basic_file.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++io.h \

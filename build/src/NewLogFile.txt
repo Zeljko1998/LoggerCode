@@ -1,6 +1,12 @@
-Thu Feb  8 10:17:34 2024
- <ERROR> Error 1_0_0_0_0_0_0_0
+Fri Feb  9 08:31:12 2024
+ <ERROR> Error   0_0_0_0_0_0_0_0
 
-Thu Feb  8 10:17:34 2024
- <WARNING> Warning 1_0_0_0_0_0_0_0
+Fri Feb  9 08:31:12 2024
+ <WARNING> Warning 0_0_0_0_0_0_0_1
+
+Fri Feb  9 08:31:12 2024
+ <TRACE> Trace   0_0_0_0_0_0_1_0
+
+Fri Feb  9 08:31:12 2024
+ <FATAL> Fatal   0_0_0_0_0_0_1_1
 
