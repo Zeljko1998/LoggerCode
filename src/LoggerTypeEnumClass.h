@@ -1,4 +1,5 @@
 enum class LoggerType {
 	TERMINAL,
-	FILE
+	FILE, 
+	ALL_AVAILABLE
 };

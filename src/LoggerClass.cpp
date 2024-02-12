@@ -10,10 +10,14 @@ void Logger::log (Level level,const std::string& msg) {
 Logger::Logger(LoggerType type, const std::string& fileName) {
 	switch (type) {
 		case (LoggerType::TERMINAL): 
-				SyncVec.push_back(std::make_unique<TerminalSync>());
+			SyncVec.push_back(std::make_unique<TerminalSync>());
 			break;
 		case (LoggerType::FILE):
-				SyncVec.push_back(std::make_unique<FileSync>(fileName));
+			SyncVec.push_back(std::make_unique<FileSync>(fileName));
+			break;
+		case (LoggerType::ALL_AVAILABLE):
+			SyncVec.push_back(std::make_unique<TerminalSync>());
+			SyncVec.push_back(std::make_unique<FileSync>(fileName));
 			break;
 	}
 }
@@ -29,6 +33,10 @@ void Logger::addSync(LoggerType type, const  std::string& fileName) {
 			if(!this->isSyncDefined(LoggerType::FILE)) { 
 				SyncVec.push_back(std::make_unique<FileSync>(fileName));
 			} 
+			break;
+		case (LoggerType::ALL_AVAILABLE):
+			if(!isSyncDefined(LoggerType::TERMINAL)) SyncVec.push_back(std::make_unique<TerminalSync>());
+			if(!isSyncDefined(LoggerType::FILE)) SyncVec.push_back(std::make_unique<FileSync>(fileName));
 			break;
 	}
 }
