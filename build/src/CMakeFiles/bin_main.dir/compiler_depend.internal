@@ -6,6 +6,7 @@ src/CMakeFiles/bin_main.dir/main.cpp.o
  /home/ubuntu/Documents/LoggerCode/src/FileSink.h
  /home/ubuntu/Documents/LoggerCode/src/LevelEnumClass.h
  /home/ubuntu/Documents/LoggerCode/src/LoggerClass.h
+ /home/ubuntu/Documents/LoggerCode/src/LoggerTypeEnumClass.h
  /home/ubuntu/Documents/LoggerCode/src/SinkClass.h
  /home/ubuntu/Documents/LoggerCode/src/TerminalSink.h
  /usr/include/alloca.h

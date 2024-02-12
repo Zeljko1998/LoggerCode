@@ -5,6 +5,7 @@ src/CMakeFiles/lib_log.dir/LoggerClass.cpp.o: /home/ubuntu/Documents/LoggerCode/
   /home/ubuntu/Documents/LoggerCode/src/FileSink.h \
   /home/ubuntu/Documents/LoggerCode/src/LevelEnumClass.h \
   /home/ubuntu/Documents/LoggerCode/src/LoggerClass.h \
+  /home/ubuntu/Documents/LoggerCode/src/LoggerTypeEnumClass.h \
   /home/ubuntu/Documents/LoggerCode/src/SinkClass.h \
   /home/ubuntu/Documents/LoggerCode/src/TerminalSink.h \
   /usr/include/alloca.h \
@@ -409,12 +410,6 @@ src/CMakeFiles/lib_log.dir/LoggerClass.cpp.o: /home/ubuntu/Documents/LoggerCode/
 
 /usr/include/c++/13/system_error:
 
-/usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h:
-
-/usr/include/c++/13/bits/stl_tree.h:
-
-/home/ubuntu/Documents/LoggerCode/src/SinkClass.h:
-
 /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h:
 
 /usr/include/c++/13/backward/binders.h:
@@ -425,41 +420,15 @@ src/CMakeFiles/lib_log.dir/LoggerClass.cpp.o: /home/ubuntu/Documents/LoggerCode/
 
 /usr/include/x86_64-linux-gnu/asm/errno.h:
 
-/usr/include/x86_64-linux-gnu/bits/byteswap.h:
-
-/usr/include/c++/13/bits/stl_uninitialized.h:
-
-/usr/include/c++/13/ext/numeric_traits.h:
-
-/usr/include/c++/13/bits/ostream.tcc:
-
-/usr/include/c++/13/bits/stl_function.h:
-
-/usr/include/c++/13/bits/localefwd.h:
-
-/usr/include/c++/13/bits/string_view.tcc:
-
-/usr/include/c++/13/bits/functexcept.h:
-
-/usr/include/c++/13/ext/alloc_traits.h:
-
-/usr/include/c++/13/bit:
-
-/usr/include/c++/13/bits/basic_ios.h:
-
 /home/ubuntu/Documents/LoggerCode/src/LoggerClass.cpp:
 
-/usr/include/wchar.h:
+/usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
 
-/home/ubuntu/Documents/LoggerCode/src/LevelEnumClass.h:
+/usr/include/c++/13/bits/refwrap.h:
 
-/usr/include/c++/13/bits/node_handle.h:
+/usr/include/c++/13/bits/functional_hash.h:
 
-/usr/include/x86_64-linux-gnu/bits/locale.h:
-
-/usr/include/x86_64-linux-gnu/bits/wordsize.h:
-
-/usr/include/c++/13/bits/exception_ptr.h:
+/usr/include/c++/13/bits/exception_defines.h:
 
 /home/ubuntu/Documents/LoggerCode/src/TerminalSink.h:
 
@@ -479,6 +448,26 @@ src/CMakeFiles/lib_log.dir/LoggerClass.cpp.o: /home/ubuntu/Documents/LoggerCode/
 
 /usr/include/linux/errno.h:
 
+/usr/include/c++/13/bits/node_handle.h:
+
+/usr/include/x86_64-linux-gnu/bits/locale.h:
+
+/usr/include/c++/13/bit:
+
+/usr/include/c++/13/bits/basic_ios.h:
+
+/usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h:
+
+/usr/include/c++/13/bits/stl_tree.h:
+
+/home/ubuntu/Documents/LoggerCode/src/SinkClass.h:
+
+/home/ubuntu/Documents/LoggerCode/src/LoggerTypeEnumClass.h:
+
+/usr/include/x86_64-linux-gnu/bits/wordsize.h:
+
+/usr/include/c++/13/bits/exception_ptr.h:
+
 /usr/include/c++/13/debug/assertions.h:
 
 /usr/include/c++/13/bits/shared_ptr.h:
@@ -494,6 +483,28 @@ src/CMakeFiles/lib_log.dir/LoggerClass.cpp.o: /home/ubuntu/Documents/LoggerCode/
 /usr/include/asm-generic/errno.h:
 
 /usr/include/c++/13/cwchar:
+
+/usr/include/x86_64-linux-gnu/bits/byteswap.h:
+
+/usr/include/c++/13/bits/stl_uninitialized.h:
+
+/usr/include/c++/13/ext/numeric_traits.h:
+
+/usr/include/c++/13/bits/ostream.tcc:
+
+/usr/include/c++/13/bits/stl_function.h:
+
+/usr/include/c++/13/bits/localefwd.h:
+
+/usr/include/c++/13/bits/string_view.tcc:
+
+/home/ubuntu/Documents/LoggerCode/src/LevelEnumClass.h:
+
+/usr/include/wchar.h:
+
+/usr/include/c++/13/bits/functexcept.h:
+
+/usr/include/c++/13/ext/alloc_traits.h:
 
 /usr/include/c++/13/bits/atomic_lockfree_defines.h:
 
@@ -527,6 +538,8 @@ src/CMakeFiles/lib_log.dir/LoggerClass.cpp.o: /home/ubuntu/Documents/LoggerCode/
 
 /usr/include/c++/13/bits/concept_check.h:
 
+/usr/include/c++/13/bits/basic_ios.tcc:
+
 /usr/include/x86_64-linux-gnu/bits/time64.h:
 
 /usr/include/c++/13/bits/stl_vector.h:
@@ -536,16 +549,6 @@ src/CMakeFiles/lib_log.dir/LoggerClass.cpp.o: /home/ubuntu/Documents/LoggerCode/
 /usr/include/c++/13/bits/ptr_traits.h:
 
 /usr/include/pthread.h:
-
-/usr/include/c++/13/bits/basic_ios.tcc:
-
-/usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
-
-/usr/include/c++/13/bits/refwrap.h:
-
-/usr/include/c++/13/bits/exception_defines.h:
-
-/usr/include/c++/13/bits/functional_hash.h:
 
 /usr/include/c++/13/bits/streambuf.tcc:
 
@@ -669,6 +672,10 @@ src/CMakeFiles/lib_log.dir/LoggerClass.cpp.o: /home/ubuntu/Documents/LoggerCode/
 
 /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h:
 
+/usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
+
+/usr/include/x86_64-linux-gnu/bits/long-double.h:
+
 /usr/include/x86_64-linux-gnu/bits/cpu-set.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h:
@@ -682,7 +689,3 @@ src/CMakeFiles/lib_log.dir/LoggerClass.cpp.o: /home/ubuntu/Documents/LoggerCode/
 /usr/include/x86_64-linux-gnu/bits/floatn.h:
 
 /usr/include/x86_64-linux-gnu/bits/sched.h:
-
-/usr/include/x86_64-linux-gnu/bits/long-double.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdio_lim.h:

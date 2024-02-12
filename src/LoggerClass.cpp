@@ -7,10 +7,24 @@ void Logger::log (Level level,const std::string& msg) {
 }
 
 
-Logger::Logger() {
-	sinkVec.push_back(std::make_unique<TerminalSink>());
+Logger::Logger(LoggerType type, const std::string& fileName) {
+	switch (type) {
+		case (LoggerType::TERMINAL): 
+			sinkVec.push_back(std::make_unique<TerminalSink>());
+			break;
+		case (LoggerType::FILE): 
+			sinkVec.push_back(std::make_unique<FileSink>(fileName));
+			break;
+	}
 }
 
-void Logger::addSink(const  std::string& fileName) {
-	sinkVec.push_back(std::make_unique<FileSink>(fileName));1
+void Logger::addSink(LoggerType type, const  std::string& fileName) {
+	switch (type) {
+		case (LoggerType::TERMINAL): 
+			sinkVec.push_back(std::make_unique<TerminalSink>());
+			break;
+		case (LoggerType::FILE): 
+			sinkVec.push_back(std::make_unique<FileSink>(fileName));
+			break;
+	}
 }

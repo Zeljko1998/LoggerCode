@@ -6,6 +6,7 @@
 #include "SinkClass.h"
 #include "TerminalSink.h"
 #include "FileSink.h"
+#include "LoggerTypeEnumClass.h"
 
 class Logger
 {	
@@ -13,11 +14,11 @@ class Logger
 		std::vector<std::unique_ptr<SinkClass>> sinkVec;
 		
 	public:
-		Logger();
+		Logger(LoggerType type, const std::string& fileName);
 		
 		~Logger() {}
 		
 		void log (Level level,const std::string& msg);
 
-		void addSink(const std::string& fileName);
+		void addSink(LoggerType type,const std::string& fileName);
 };

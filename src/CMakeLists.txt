@@ -5,6 +5,7 @@ add_library(lib_terminal TerminalSink.cpp)
 add_library(lib_file FileSink.cpp)
 add_library(lib_log LoggerClass.cpp)
 
+
 target_link_libraries(lib_terminal lib_base)
 
 target_link_libraries(lib_file lib_base)
