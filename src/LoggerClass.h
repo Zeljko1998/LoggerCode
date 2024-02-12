@@ -22,4 +22,6 @@ class Logger
 		void log (Level level,const std::string& msg);
 
 		void addSync(LoggerType type,const std::string& fileName = " ");
+
+		bool isSyncDefined(LoggerType type);
 };
