@@ -69,28 +69,28 @@ include src/CMakeFiles/lib_file.dir/progress.make
 # Include the compile flags for this target's objects.
 include src/CMakeFiles/lib_file.dir/flags.make
 
-src/CMakeFiles/lib_file.dir/FileSink.cpp.o: src/CMakeFiles/lib_file.dir/flags.make
-src/CMakeFiles/lib_file.dir/FileSink.cpp.o: /home/ubuntu/Documents/LoggerCode/src/FileSink.cpp
-src/CMakeFiles/lib_file.dir/FileSink.cpp.o: src/CMakeFiles/lib_file.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ubuntu/Documents/LoggerCode/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/lib_file.dir/FileSink.cpp.o"
-	cd /home/ubuntu/Documents/LoggerCode/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/lib_file.dir/FileSink.cpp.o -MF CMakeFiles/lib_file.dir/FileSink.cpp.o.d -o CMakeFiles/lib_file.dir/FileSink.cpp.o -c /home/ubuntu/Documents/LoggerCode/src/FileSink.cpp
+src/CMakeFiles/lib_file.dir/FileSync.cpp.o: src/CMakeFiles/lib_file.dir/flags.make
+src/CMakeFiles/lib_file.dir/FileSync.cpp.o: /home/ubuntu/Documents/LoggerCode/src/FileSync.cpp
+src/CMakeFiles/lib_file.dir/FileSync.cpp.o: src/CMakeFiles/lib_file.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ubuntu/Documents/LoggerCode/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/lib_file.dir/FileSync.cpp.o"
+	cd /home/ubuntu/Documents/LoggerCode/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/lib_file.dir/FileSync.cpp.o -MF CMakeFiles/lib_file.dir/FileSync.cpp.o.d -o CMakeFiles/lib_file.dir/FileSync.cpp.o -c /home/ubuntu/Documents/LoggerCode/src/FileSync.cpp
 
-src/CMakeFiles/lib_file.dir/FileSink.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/lib_file.dir/FileSink.cpp.i"
-	cd /home/ubuntu/Documents/LoggerCode/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Documents/LoggerCode/src/FileSink.cpp > CMakeFiles/lib_file.dir/FileSink.cpp.i
+src/CMakeFiles/lib_file.dir/FileSync.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/lib_file.dir/FileSync.cpp.i"
+	cd /home/ubuntu/Documents/LoggerCode/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Documents/LoggerCode/src/FileSync.cpp > CMakeFiles/lib_file.dir/FileSync.cpp.i
 
-src/CMakeFiles/lib_file.dir/FileSink.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/lib_file.dir/FileSink.cpp.s"
-	cd /home/ubuntu/Documents/LoggerCode/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Documents/LoggerCode/src/FileSink.cpp -o CMakeFiles/lib_file.dir/FileSink.cpp.s
+src/CMakeFiles/lib_file.dir/FileSync.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/lib_file.dir/FileSync.cpp.s"
+	cd /home/ubuntu/Documents/LoggerCode/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Documents/LoggerCode/src/FileSync.cpp -o CMakeFiles/lib_file.dir/FileSync.cpp.s
 
 # Object files for target lib_file
 lib_file_OBJECTS = \
-"CMakeFiles/lib_file.dir/FileSink.cpp.o"
+"CMakeFiles/lib_file.dir/FileSync.cpp.o"
 
 # External object files for target lib_file
 lib_file_EXTERNAL_OBJECTS =
 
-src/liblib_file.a: src/CMakeFiles/lib_file.dir/FileSink.cpp.o
+src/liblib_file.a: src/CMakeFiles/lib_file.dir/FileSync.cpp.o
 src/liblib_file.a: src/CMakeFiles/lib_file.dir/build.make
 src/liblib_file.a: src/CMakeFiles/lib_file.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/ubuntu/Documents/LoggerCode/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library liblib_file.a"

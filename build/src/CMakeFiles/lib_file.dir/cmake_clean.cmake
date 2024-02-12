@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/lib_file.dir/FileSink.cpp.o"
-  "CMakeFiles/lib_file.dir/FileSink.cpp.o.d"
+  "CMakeFiles/lib_file.dir/FileSync.cpp.o"
+  "CMakeFiles/lib_file.dir/FileSync.cpp.o.d"
   "liblib_file.a"
   "liblib_file.pdb"
 )

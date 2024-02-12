@@ -1,16 +1,16 @@
-#include "FileSink.h"
+#include "FileSync.h"
 
 
-FileSink::FileSink(const std::string& fileName) {
+FileSync::FileSync(const std::string& fileName) {
 	file.open(fileName, std::ios::out);
 }
 
-FileSink :: ~FileSink() {
+FileSync :: ~FileSync() {
 	file.close();
 }
 
 
-void FileSink::printMsg (const Level& logLevel, const std::string& msg) {
+void FileSync::printMsg (const Level& logLevel, const std::string& msg) {
 	switch (logLevel) {
 	case Level::TRACE:
 		file << printTimeAndDate() << " <TRACE> " << msg << "\n\n";

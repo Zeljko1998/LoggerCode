@@ -1,2 +1,2 @@
-/usr/bin/ar qc liblib_terminal.a CMakeFiles/lib_terminal.dir/TerminalSink.cpp.o
+/usr/bin/ar qc liblib_terminal.a CMakeFiles/lib_terminal.dir/TerminalSync.cpp.o
 /usr/bin/ranlib liblib_terminal.a

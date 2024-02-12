@@ -1,2 +1,2 @@
-/usr/bin/ar qc liblib_file.a CMakeFiles/lib_file.dir/FileSink.cpp.o
+/usr/bin/ar qc liblib_file.a CMakeFiles/lib_file.dir/FileSync.cpp.o
 /usr/bin/ranlib liblib_file.a

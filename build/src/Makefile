@@ -186,29 +186,29 @@ lib_log/fast:
 	cd /home/ubuntu/Documents/LoggerCode/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/lib_log.dir/build.make src/CMakeFiles/lib_log.dir/build
 .PHONY : lib_log/fast
 
-FileSink.o: FileSink.cpp.o
-.PHONY : FileSink.o
+FileSync.o: FileSync.cpp.o
+.PHONY : FileSync.o
 
 # target to build an object file
-FileSink.cpp.o:
-	cd /home/ubuntu/Documents/LoggerCode/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/lib_file.dir/build.make src/CMakeFiles/lib_file.dir/FileSink.cpp.o
-.PHONY : FileSink.cpp.o
+FileSync.cpp.o:
+	cd /home/ubuntu/Documents/LoggerCode/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/lib_file.dir/build.make src/CMakeFiles/lib_file.dir/FileSync.cpp.o
+.PHONY : FileSync.cpp.o
 
-FileSink.i: FileSink.cpp.i
-.PHONY : FileSink.i
+FileSync.i: FileSync.cpp.i
+.PHONY : FileSync.i
 
 # target to preprocess a source file
-FileSink.cpp.i:
-	cd /home/ubuntu/Documents/LoggerCode/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/lib_file.dir/build.make src/CMakeFiles/lib_file.dir/FileSink.cpp.i
-.PHONY : FileSink.cpp.i
+FileSync.cpp.i:
+	cd /home/ubuntu/Documents/LoggerCode/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/lib_file.dir/build.make src/CMakeFiles/lib_file.dir/FileSync.cpp.i
+.PHONY : FileSync.cpp.i
 
-FileSink.s: FileSink.cpp.s
-.PHONY : FileSink.s
+FileSync.s: FileSync.cpp.s
+.PHONY : FileSync.s
 
 # target to generate assembly for a file
-FileSink.cpp.s:
-	cd /home/ubuntu/Documents/LoggerCode/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/lib_file.dir/build.make src/CMakeFiles/lib_file.dir/FileSink.cpp.s
-.PHONY : FileSink.cpp.s
+FileSync.cpp.s:
+	cd /home/ubuntu/Documents/LoggerCode/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/lib_file.dir/build.make src/CMakeFiles/lib_file.dir/FileSync.cpp.s
+.PHONY : FileSync.cpp.s
 
 LoggerClass.o: LoggerClass.cpp.o
 .PHONY : LoggerClass.o
@@ -234,53 +234,53 @@ LoggerClass.cpp.s:
 	cd /home/ubuntu/Documents/LoggerCode/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/lib_log.dir/build.make src/CMakeFiles/lib_log.dir/LoggerClass.cpp.s
 .PHONY : LoggerClass.cpp.s
 
-SinkClass.o: SinkClass.cpp.o
-.PHONY : SinkClass.o
+SyncClass.o: SyncClass.cpp.o
+.PHONY : SyncClass.o
 
 # target to build an object file
-SinkClass.cpp.o:
-	cd /home/ubuntu/Documents/LoggerCode/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/lib_base.dir/build.make src/CMakeFiles/lib_base.dir/SinkClass.cpp.o
-.PHONY : SinkClass.cpp.o
+SyncClass.cpp.o:
+	cd /home/ubuntu/Documents/LoggerCode/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/lib_base.dir/build.make src/CMakeFiles/lib_base.dir/SyncClass.cpp.o
+.PHONY : SyncClass.cpp.o
 
-SinkClass.i: SinkClass.cpp.i
-.PHONY : SinkClass.i
+SyncClass.i: SyncClass.cpp.i
+.PHONY : SyncClass.i
 
 # target to preprocess a source file
-SinkClass.cpp.i:
-	cd /home/ubuntu/Documents/LoggerCode/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/lib_base.dir/build.make src/CMakeFiles/lib_base.dir/SinkClass.cpp.i
-.PHONY : SinkClass.cpp.i
+SyncClass.cpp.i:
+	cd /home/ubuntu/Documents/LoggerCode/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/lib_base.dir/build.make src/CMakeFiles/lib_base.dir/SyncClass.cpp.i
+.PHONY : SyncClass.cpp.i
 
-SinkClass.s: SinkClass.cpp.s
-.PHONY : SinkClass.s
+SyncClass.s: SyncClass.cpp.s
+.PHONY : SyncClass.s
 
 # target to generate assembly for a file
-SinkClass.cpp.s:
-	cd /home/ubuntu/Documents/LoggerCode/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/lib_base.dir/build.make src/CMakeFiles/lib_base.dir/SinkClass.cpp.s
-.PHONY : SinkClass.cpp.s
+SyncClass.cpp.s:
+	cd /home/ubuntu/Documents/LoggerCode/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/lib_base.dir/build.make src/CMakeFiles/lib_base.dir/SyncClass.cpp.s
+.PHONY : SyncClass.cpp.s
 
-TerminalSink.o: TerminalSink.cpp.o
-.PHONY : TerminalSink.o
+TerminalSync.o: TerminalSync.cpp.o
+.PHONY : TerminalSync.o
 
 # target to build an object file
-TerminalSink.cpp.o:
-	cd /home/ubuntu/Documents/LoggerCode/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/lib_terminal.dir/build.make src/CMakeFiles/lib_terminal.dir/TerminalSink.cpp.o
-.PHONY : TerminalSink.cpp.o
+TerminalSync.cpp.o:
+	cd /home/ubuntu/Documents/LoggerCode/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/lib_terminal.dir/build.make src/CMakeFiles/lib_terminal.dir/TerminalSync.cpp.o
+.PHONY : TerminalSync.cpp.o
 
-TerminalSink.i: TerminalSink.cpp.i
-.PHONY : TerminalSink.i
+TerminalSync.i: TerminalSync.cpp.i
+.PHONY : TerminalSync.i
 
 # target to preprocess a source file
-TerminalSink.cpp.i:
-	cd /home/ubuntu/Documents/LoggerCode/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/lib_terminal.dir/build.make src/CMakeFiles/lib_terminal.dir/TerminalSink.cpp.i
-.PHONY : TerminalSink.cpp.i
+TerminalSync.cpp.i:
+	cd /home/ubuntu/Documents/LoggerCode/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/lib_terminal.dir/build.make src/CMakeFiles/lib_terminal.dir/TerminalSync.cpp.i
+.PHONY : TerminalSync.cpp.i
 
-TerminalSink.s: TerminalSink.cpp.s
-.PHONY : TerminalSink.s
+TerminalSync.s: TerminalSync.cpp.s
+.PHONY : TerminalSync.s
 
 # target to generate assembly for a file
-TerminalSink.cpp.s:
-	cd /home/ubuntu/Documents/LoggerCode/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/lib_terminal.dir/build.make src/CMakeFiles/lib_terminal.dir/TerminalSink.cpp.s
-.PHONY : TerminalSink.cpp.s
+TerminalSync.cpp.s:
+	cd /home/ubuntu/Documents/LoggerCode/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/lib_terminal.dir/build.make src/CMakeFiles/lib_terminal.dir/TerminalSync.cpp.s
+.PHONY : TerminalSync.cpp.s
 
 main.o: main.cpp.o
 .PHONY : main.o
@@ -319,18 +319,18 @@ help:
 	@echo "... lib_file"
 	@echo "... lib_log"
 	@echo "... lib_terminal"
-	@echo "... FileSink.o"
-	@echo "... FileSink.i"
-	@echo "... FileSink.s"
+	@echo "... FileSync.o"
+	@echo "... FileSync.i"
+	@echo "... FileSync.s"
 	@echo "... LoggerClass.o"
 	@echo "... LoggerClass.i"
 	@echo "... LoggerClass.s"
-	@echo "... SinkClass.o"
-	@echo "... SinkClass.i"
-	@echo "... SinkClass.s"
-	@echo "... TerminalSink.o"
-	@echo "... TerminalSink.i"
-	@echo "... TerminalSink.s"
+	@echo "... SyncClass.o"
+	@echo "... SyncClass.i"
+	@echo "... SyncClass.s"
+	@echo "... TerminalSync.o"
+	@echo "... TerminalSync.i"
+	@echo "... TerminalSync.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

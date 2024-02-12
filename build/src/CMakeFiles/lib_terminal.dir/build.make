@@ -69,28 +69,28 @@ include src/CMakeFiles/lib_terminal.dir/progress.make
 # Include the compile flags for this target's objects.
 include src/CMakeFiles/lib_terminal.dir/flags.make
 
-src/CMakeFiles/lib_terminal.dir/TerminalSink.cpp.o: src/CMakeFiles/lib_terminal.dir/flags.make
-src/CMakeFiles/lib_terminal.dir/TerminalSink.cpp.o: /home/ubuntu/Documents/LoggerCode/src/TerminalSink.cpp
-src/CMakeFiles/lib_terminal.dir/TerminalSink.cpp.o: src/CMakeFiles/lib_terminal.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ubuntu/Documents/LoggerCode/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/lib_terminal.dir/TerminalSink.cpp.o"
-	cd /home/ubuntu/Documents/LoggerCode/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/lib_terminal.dir/TerminalSink.cpp.o -MF CMakeFiles/lib_terminal.dir/TerminalSink.cpp.o.d -o CMakeFiles/lib_terminal.dir/TerminalSink.cpp.o -c /home/ubuntu/Documents/LoggerCode/src/TerminalSink.cpp
+src/CMakeFiles/lib_terminal.dir/TerminalSync.cpp.o: src/CMakeFiles/lib_terminal.dir/flags.make
+src/CMakeFiles/lib_terminal.dir/TerminalSync.cpp.o: /home/ubuntu/Documents/LoggerCode/src/TerminalSync.cpp
+src/CMakeFiles/lib_terminal.dir/TerminalSync.cpp.o: src/CMakeFiles/lib_terminal.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ubuntu/Documents/LoggerCode/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/lib_terminal.dir/TerminalSync.cpp.o"
+	cd /home/ubuntu/Documents/LoggerCode/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/lib_terminal.dir/TerminalSync.cpp.o -MF CMakeFiles/lib_terminal.dir/TerminalSync.cpp.o.d -o CMakeFiles/lib_terminal.dir/TerminalSync.cpp.o -c /home/ubuntu/Documents/LoggerCode/src/TerminalSync.cpp
 
-src/CMakeFiles/lib_terminal.dir/TerminalSink.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/lib_terminal.dir/TerminalSink.cpp.i"
-	cd /home/ubuntu/Documents/LoggerCode/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Documents/LoggerCode/src/TerminalSink.cpp > CMakeFiles/lib_terminal.dir/TerminalSink.cpp.i
+src/CMakeFiles/lib_terminal.dir/TerminalSync.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/lib_terminal.dir/TerminalSync.cpp.i"
+	cd /home/ubuntu/Documents/LoggerCode/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Documents/LoggerCode/src/TerminalSync.cpp > CMakeFiles/lib_terminal.dir/TerminalSync.cpp.i
 
-src/CMakeFiles/lib_terminal.dir/TerminalSink.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/lib_terminal.dir/TerminalSink.cpp.s"
-	cd /home/ubuntu/Documents/LoggerCode/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Documents/LoggerCode/src/TerminalSink.cpp -o CMakeFiles/lib_terminal.dir/TerminalSink.cpp.s
+src/CMakeFiles/lib_terminal.dir/TerminalSync.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/lib_terminal.dir/TerminalSync.cpp.s"
+	cd /home/ubuntu/Documents/LoggerCode/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Documents/LoggerCode/src/TerminalSync.cpp -o CMakeFiles/lib_terminal.dir/TerminalSync.cpp.s
 
 # Object files for target lib_terminal
 lib_terminal_OBJECTS = \
-"CMakeFiles/lib_terminal.dir/TerminalSink.cpp.o"
+"CMakeFiles/lib_terminal.dir/TerminalSync.cpp.o"
 
 # External object files for target lib_terminal
 lib_terminal_EXTERNAL_OBJECTS =
 
-src/liblib_terminal.a: src/CMakeFiles/lib_terminal.dir/TerminalSink.cpp.o
+src/liblib_terminal.a: src/CMakeFiles/lib_terminal.dir/TerminalSync.cpp.o
 src/liblib_terminal.a: src/CMakeFiles/lib_terminal.dir/build.make
 src/liblib_terminal.a: src/CMakeFiles/lib_terminal.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/ubuntu/Documents/LoggerCode/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library liblib_terminal.a"

@@ -154,8 +154,8 @@ src/CMakeFiles/bin_main.dir/main.cpp.o: \
  /usr/include/c++/13/bits/atomic_lockfree_defines.h \
  /usr/include/c++/13/backward/auto_ptr.h \
  /usr/include/c++/13/pstl/glue_memory_defs.h \
- /usr/include/c++/13/pstl/execution_defs.h \
- /home/ubuntu/Documents/LoggerCode/src/SinkClass.h \
+ /usr/include/c++/13/pstl/execution_defs.h /usr/include/c++/13/typeindex \
+ /home/ubuntu/Documents/LoggerCode/src/SyncClass.h \
  /usr/include/c++/13/iostream /usr/include/c++/13/ostream \
  /usr/include/c++/13/ios /usr/include/c++/13/bits/ios_base.h \
  /usr/include/c++/13/bits/locale_classes.h \
@@ -181,8 +181,8 @@ src/CMakeFiles/bin_main.dir/main.cpp.o: \
  /usr/include/c++/13/bits/stl_multimap.h \
  /usr/include/c++/13/bits/erase_if.h \
  /home/ubuntu/Documents/LoggerCode/src/LevelEnumClass.h \
- /home/ubuntu/Documents/LoggerCode/src/TerminalSink.h \
- /home/ubuntu/Documents/LoggerCode/src/FileSink.h \
+ /home/ubuntu/Documents/LoggerCode/src/TerminalSync.h \
+ /home/ubuntu/Documents/LoggerCode/src/FileSync.h \
  /usr/include/c++/13/fstream /usr/include/c++/13/bits/codecvt.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/basic_file.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++io.h \

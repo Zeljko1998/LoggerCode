@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/lib_terminal.dir/TerminalSink.cpp.o"
-  "CMakeFiles/lib_terminal.dir/TerminalSink.cpp.o.d"
+  "CMakeFiles/lib_terminal.dir/TerminalSync.cpp.o"
+  "CMakeFiles/lib_terminal.dir/TerminalSync.cpp.o.d"
   "liblib_terminal.a"
   "liblib_terminal.pdb"
 )

@@ -1,12 +1,12 @@
 #pragma once
-#include "SinkClass.h"
+#include "SyncClass.h"
 #include <fstream>
 
 
-class FileSink : public SinkClass {
+class FileSync : public SyncClass {
 	std::fstream file;
 public:
 	void printMsg(const Level& logLevel, const std::string& msg) override;
-	FileSink(const std::string& fileName);
-	~FileSink();
+	FileSync(const std::string& fileName);
+	~FileSync();
 };
