@@ -15,13 +15,13 @@ class Logger
 		std::vector<std::unique_ptr<SyncClass>> SyncVec;
 		
 	public:
-		Logger(LoggerType type, const std::string& fileName = " ");
+		Logger(LoggerType type, const std::string& fileName = "NewLogFile.txt");
 		
 		~Logger() {}
 		
 		void log (Level level,const std::string& msg);
 
-		void addSync(LoggerType type,const std::string& fileName = " ");
+		void addSync(LoggerType type,const std::string& fileName = "NewLogFile.txt");
 
 		bool isSyncDefined(LoggerType type);
 };
